@@ -7125,7 +7125,7 @@ var due = eR((pue, bS) => {
             return Math.round((t + Number.EPSILON) * n) / n
         }
         static isProduction() {
-            return window.location.hostname === "jackbox.tv"
+            return window.location.hostname === "jackbox.tv.tr"
         }
         static htmlUnescape(t) {
             return String(t).replace(/&quot;/gi, '"').replace(/&#39;/gi, "'").replace(/&lt;/gi, "<").replace(/&gt;/gi, ">").replace(/&amp;/gi, "&")
@@ -7134,14 +7134,41 @@ var due = eR((pue, bS) => {
             return String(t).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/'/g, "&#39;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
         }
         static sanitize(t) {
-            const r = this.sanitizeInput(t).replace(/'/g, "\u2019");
+            let valids = "‚ !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyzşŞıİğĞ{|}~¡«»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØŒÙÚÛÜÝŸÞßàáâãäåæçèéêëìíîïðñòóôõö÷øœùúûüýþÿ‘’“”„[]".split("");
+            let ia = t.split("");
+            let oa = "";
+            for (let i = 0; i < ia.length; i++) {
+                if (valids.includes(ia[i])) {
+                    oa += ia[i];
+                }
+            }
+            const r = oa.replace(/'/g, "\u2019");
             return this.htmlEscape(r).trim()
         }
         static sanitizeName(t) {
-            return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            let valids = "‚ !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyzşŞıİğĞ{|}~¡«»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØŒÙÚÛÜÝŸÞßàáâãäåæçèéêëìíîïðñòóôõö÷øœùúûüýþÿ‘’“”„[]".split("");
+            let ia = t.split("");
+            let oa = "";
+            for (let i = 0; i < ia.length; i++) {
+                if (valids.includes(ia[i])) {
+                    oa += ia[i];
+                }
+            }
+            oa = oa.replaceAll("i", "İ");
+            oa = oa.replaceAll("ı", "I");
+            oa = oa.toUpperCase();
+            return oa;
         }
         static sanitizeInput(t) {
-            return t = t.replace("\u2026", "..."), t.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+            let valids = "‚ !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyzşŞıİğĞ{|}~¡«»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØŒÙÚÛÜÝŸÞßàáâãäåæçèéêëìíîïðñòóôõö÷øœùúûüýþÿ‘’“”„[]".split("");
+            let ia = t.split("");
+            let oa = "";
+            for (let i = 0; i < ia.length; i++) {
+                if (valids.includes(ia[i])) {
+                    oa += ia[i];
+                }
+            }
+            return oa
         }
         static sanitizeEmoji(t) {
             return t.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -12704,7 +12731,7 @@ ${r}`,
             }
         },
         Ri = (e, t) => {
-            if (!/[^\u00A1\u0020-\u0022\u0024-\u0029\u002B-\u002F\u003A-\u007E\u00BF-\u00FF\u2018-\u2019\u2026]/gi.test(e)) return t && e && e.length > t && (e = e.substring(0, t)), {
+            if (!/[^\u00A1\u0020-\u0022\u0024-\u0029\u002B-\u002F\u003A-\u007E\u00BF-\u00FF\u2018-\u2019\u2026\u015f\u011f\u0131\u0130]/gi.test(e)) return t && e && e.length > t && (e = e.substring(0, t)), {
                 result: e,
                 charCount: e.length
             };
@@ -12713,7 +12740,7 @@ ${r}`,
                 a = "";
             for (let c = 0; c < n.length && (t ? s < t : !0); c += 1) {
                 const l = n[c];
-                if (/[\u00A1\u0020-\u0022\u0024-\u0029\u002B-\u002F\u003A-\u007E\u00BF-\u00FF\u2018-\u2019\u2026]/gi.test(l)) a += l, s += 1;
+                if (/[\u00A1\u0020-\u0022\u0024-\u0029\u002B-\u002F\u003A-\u007E\u00BF-\u00FF\u2018-\u2019\u2026\u015f\u011f\u0131\u0130]/gi.test(l)) a += l, s += 1;
                 else if (JU(l)) {
                     if (a += l, vn(l, HU)) {
                         c += 1;
@@ -12904,10 +12931,29 @@ ${r.message}`,
             return String(t).replace(r, "")
         }
         static input(t) {
-            return t.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+            let valids = "‚ !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyzşŞıİğĞ{|}~¡«»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØŒÙÚÛÜÝŸÞßàáâãäåæçèéêëìíîïðñòóôõö÷øœùúûüýþÿ‘’“”„[]".split("");
+            let ia = t.split("");
+            let oa = "";
+            for (let i = 0; i < ia.length; i++) {
+                if (valids.includes(ia[i])) {
+                    oa += ia[i];
+                }
+            }
+            return oa;
         }
         static username(t) {
-            return t.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "\u2019")
+            let valids = "‚ !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyzşŞıİğĞ{|}~¡«»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØŒÙÚÛÜÝŸÞßàáâãäåæçèéêëìíîïðñòóôõö÷øœùúûüýþÿ‘’“”„[]".split("");
+            let ia = t.split("");
+            let oa = "";
+            for (let i = 0; i < ia.length; i++) {
+                if (valids.includes(ia[i])) {
+                    oa += ia[i];
+                }
+            }
+            oa = oa.replaceAll("i", "İ");
+            oa = oa.replaceAll("ı", "I");
+            oa = oa.toUpperCase();
+            return oa.replace(/'/g, "\u2019");
         }
         static emoji(t) {
             return t.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -27676,103 +27722,103 @@ ${t}`
             NOTIFICATION: "notification circle"
         },
         pie = {
-            BANNER: "Challenge",
+            BANNER: "MÜCADELE",
             INSTRUCTIONS: {
-                ANSWER: "Submit Your Answer",
-                INTRO: "Introduce Yourself",
-                CONNECTION: "Connect with Somebody",
-                QUICKIE: "Answer Anonymously",
-                FIRESTARTER: "Start Some Drama",
-                FINALE: "Make Your Case"
+                ANSWER: "CEVABINIZI GÖNDERİN",
+                INTRO: "KENDİNİZİ TANITIN",
+                CONNECTION: "BİRİYLE BAĞLANIN",
+                QUICKIE: "ANONİM OLARAK CEVAPLAYIN",
+                FIRESTARTER: "BİRKAÇ OLAYLAR BAŞLATIN",
+                FINALE: "FİKRİNİZİ SAVUNUN"
             }
         },
         gie = {
-            BANNER: "Elimination"
+            BANNER: "ELEME"
         },
-        mie = "1 character remaining | {num} characters remaining",
+        mie = "1 karakter kaldı | {num} karakterler kaldı",
         vie = {
-            PICKS: "picks",
-            WITH: "with"
+            PICKS: "bu kişiyi seçti",
+            WITH: "bu kişiyle beraber"
         },
         _ie = {
-            INSTRUCTIONS: "Who should leave?",
-            PLACEHOLDER: "What did they do to deserve this?"
+            INSTRUCTIONS: "KİM AYRILMALI?",
+            PLACEHOLDER: "Bunu hak etmek için ne yaptı?"
         },
-        yie = "Finale",
-        Eie = "Finished",
+        yie = "FİNAL",
+        Eie = "BİTTİ",
         bie = {
             ARIA: {
-                FLAIR: "Write your own detail"
+                FLAIR: "Kendi detayınızı yazın"
             },
             BANNER: {
-                JOIN: "Join Game",
-                START: "Start Game"
+                JOIN: "Oyuna katılın",
+                START: "Oyun başlangıcı"
             },
             INSTRUCTIONS: {
-                AVATAR: "Choose your avatar",
-                FLAIR: "Choose a detail about your character",
+                AVATAR: "AVATARINIZI SEÇİN",
+                FLAIR: "KARAKTERİNİZ HAKKINDA BİR DETAY SEÇİN",
                 NAME: {
-                    HEADER: "Confirm Your Name",
-                    DESCRIPTION: `Other players will see your name.
-Make sure you like it before the competition begins!`,
-                    WARNING: `NOTE:
-Variations of the name you've chosen may also appear in the game.`
+                    HEADER: "İSMİNİZİ ONAYLAYIN",
+                    DESCRIPTION: `Diğer oyuncular isminizi görecek.
+O yüzden yarışma başlamadan önce bu ismi beğendiğinizden emin olun!`,
+                    WARNING: `NOT:
+Seçtiğiniz ismin değiştirilmiş halleri de oyunda görünebilir.`
                 },
-                PRONOUN: "Which pronouns should we use?"
+                PRONOUN: "Hangi zamirleri kullanmalıyız?"
             },
             PLACEHOLDER: {
-                FLAIR: "Write your own..."
+                FLAIR: "Kendiniz yazın..."
             },
             PRONOUN: {
-                FEMININE: "she/her",
-                MASCULINE: "he/him",
-                NEUTER: "they/them"
+                FEMININE: "kız",
+                MASCULINE: "erkek",
+                NEUTER: "onlar"
             },
-            USE_THIS: "Use This"
+            USE_THIS: "BUNU KULLAN"
         },
-        Tie = "Points",
-        Sie = "Audience Poll",
+        Tie = "PUANLAR",
+        Sie = "SEYİRCİ ANKETİ",
         Oie = {
             DESCRIPTION: {
-                NEW_PLAYERS: "New cast, fresh attitudes!",
-                SAME_PLAYERS: "Continue this journey where the season left off...",
-                RESET_SCORES: "with reset scores!"
+                NEW_PLAYERS: "Yeni oyuncular, taze tavırlar!",
+                SAME_PLAYERS: "Bu sezonda neler olduysa öyle devam edilsin...",
+                RESET_SCORES: "sıfırlanmış puanlarla!"
             }
         },
         Iie = {
             CHALLENGE: {
-                WINNER: "Challenge Winner",
-                WHO_VOTED: "Who Voted For Me?"
+                WINNER: "Mücadele Kazananı",
+                WHO_VOTED: "Kim bana oy verdi?"
             },
             ELIMINATION: {
                 WHO_VOTED: {
-                    LAST_ROUND: "Who Tried To Eliminate Me Last Round?",
-                    THIS_ROUND: "Who Voted To Eliminate Me?"
+                    LAST_ROUND: "Kim beni önceki tur elemeye çalıştı?",
+                    THIS_ROUND: "Kim beni elemeye çalıştı?"
                 }
             },
-            EVERYONE: "EVERYONE",
-            NO_ONE: "NO ONE",
+            EVERYONE: "HERKES",
+            NO_ONE: "HİÇ KİMSE",
             SUFFIX: {
                 CHALLENGE: {
-                    EVERYONE: ["You're a star!", "Don't get cocky.", "Nailing it.", "You're having a moment."],
-                    NO_ONE: ["Deal with it.", "Time to get noticed!", "Step it up.", "Get on the radar!", "You're blowing it.", "Fix this.", "Scared?", "Change it up!", "\u{1F622}"]
+                    EVERYONE: ["Yıldızsın!", "Çok heyecanlanma.", "Tam üstüne bastın.", "Olayın tadını çıkarıyorsun."],
+                    NO_ONE: ["Öyle kal.", "Fark edilmenin zamanı!", "Daha iyi yap.", "Radara gir!", "Batırıyorsun.", "Düzelt şunu.", "Korkuyor musun?", "Değiştir kendini!", "\u{1F622}"]
                 },
                 ELIMINATION: {
-                    EVERYONE: ["You're the villain.", "Literally everyone.", "Think about that.", "Figure it out.", "\u{1F622}"],
-                    NO_ONE: ["Enjoy it.", "Exhale.", "You're safe for now."]
+                    EVERYONE: ["Kötü adam sensin.", "Gerçekten herkes.", "Bunu bir düşün.", "Bir yolunu bul.", "\u{1F622}"],
+                    NO_ONE: ["Keyfini çıkar.", "Nefes ver.", "Şimdilik güvendesin."]
                 }
             }
         },
         Aie = {
-            SKIP: "Press to Skip Tutorials"
+            SKIP: "EĞİTİMİ ATLA"
         },
         Nie = {
             GOODBYE: {
-                DONE: "I'm Done"
+                DONE: "BİTİRDİM"
             },
             PLACEHOLDER: {
-                GOODBYE: "Say goodbye... or don't!",
-                WRITE: "Write your answer..."
+                GOODBYE: "Hoşça kal de... ya da deme!",
+                WRITE: "Yanıtınızı yazın..."
             }
         },
         wie = {
@@ -29503,7 +29549,7 @@ Es posible que aparezcan en el juego algunas variaciones de tu nombre.`
         }, null, 8, ["class", "disabled", "model-value", "placeholder", "onUpdate:modelValue"]), F("button", {
             class: "confirm",
             disabled: e.selectedId === -1 || !e.canChoose
-        }, [F("span", null, we(e.$t("ACTION.CONFIRM")), 1), F("img", {
+        }, [F("span", null, we(e.$t("ONAYLA")), 1), F("img", {
             class: "door",
             alt: e.$t("ALT.DOOR"),
             src: e.doorSvg
@@ -30167,7 +30213,7 @@ Es posible que aparezcan en el juego algunas variaciones de tu nombre.`
         }, null, 8, ["disabled", "model-value", "placeholder", "onKeypress", "onUpdate:modelValue"]), F("button", {
             class: "confirm",
             disabled: !e.canSubmit,
-            textContent: we(e.player.isGoodbye ? e.$t("WRITING.GOODBYE.DONE") : e.$t("ACTION.SUBMIT"))
+            textContent: we(e.player.isGoodbye ? e.$t("WRITING.GOODBYE.DONE") : e.$t("GÖNDER"))
         }, null, 8, Wle), e.error ? (U(), q("p", {
             key: 0,
             textContent: we(e.error)
@@ -30482,3 +30528,6 @@ Es posible que aparezcan en el juego algunas variaciones de tu nombre.`
 });
 export default due();
 //# sourceMappingURL=8fff6456.js.map
+function CheckInput() {
+    if (document.querySelectorAll("textarea").length) console.log(document.querySelectorAll("textarea")[0].value);
+}
