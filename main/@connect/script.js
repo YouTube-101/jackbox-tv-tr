@@ -14484,7 +14484,7 @@ var Qae = JM((Boe, _1) => {
             isPublic: !0,
             directory: "internal/ecast-test-client"
         }, {
-            name: "Quiplash 2 InterLASHional",
+            name: "Quiplash 2 UlusLASHarası",
             tag: "quiplash2-international",
             wrapper: "marionette",
             isPublic: !0,
@@ -14518,7 +14518,7 @@ var Qae = JM((Boe, _1) => {
             isPublic: !0,
             directory: "standalone/acquisitions-inc"
         }, {
-            name: "You Don't Know Jack 2015",
+            name: "Jack'i Bilmiyorsun 2015",
             tag: "ydkj2015",
             wrapper: "marionette",
             isPublic: !0,
@@ -14530,13 +14530,13 @@ var Qae = JM((Boe, _1) => {
             isPublic: !0,
             directory: "pp1/drawful"
         }, {
-            name: "Word Spud",
+            name: "Sözcük Patatesi",
             tag: "wordspud",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp1/wordspud"
         }, {
-            name: "Lie Swatter",
+            name: "Yalan Savar",
             tag: "lieswatter",
             wrapper: "marionette",
             isPublic: !0,
@@ -14554,19 +14554,19 @@ var Qae = JM((Boe, _1) => {
             isPublic: !0,
             directory: "pp2/fibbage2"
         }, {
-            name: "Earwax",
+            name: "Kulak Kiri",
             tag: "earwax",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp2/earwax"
         }, {
-            name: "Bidiots",
+            name: "Artallar",
             tag: "auction",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp2/auction"
         }, {
-            name: "Bomb Corp",
+            name: "Bomba Şirketi",
             tag: "bombintern",
             wrapper: "marionette",
             isPublic: !0,
@@ -14578,13 +14578,13 @@ var Qae = JM((Boe, _1) => {
             isPublic: !0,
             directory: "pp2/quiplash"
         }, {
-            name: "Fakin' It",
+            name: "Sahtekarlık",
             tag: "fakinit",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp3/fakinit"
         }, {
-            name: "Tee K.O.",
+            name: "T-K.O.",
             tag: "awshirt",
             wrapper: "marionette",
             isPublic: !0,
@@ -14599,14 +14599,14 @@ var Qae = JM((Boe, _1) => {
             directory: "pp3/quiplash2",
             categoryId: "Quiplash2Game"
         }, {
-            name: "Trivia Murder Party",
+            name: "Bilgi Cinayet Partisi",
             tag: "triviadeath",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp3/triviadeath",
             categoryId: "TriviaDeathResults"
         }, {
-            name: "Guesspionage",
+            name: "Tahminaj",
             tag: "pollposition",
             wrapper: "marionette",
             isPublic: !0,
@@ -14618,28 +14618,28 @@ var Qae = JM((Boe, _1) => {
             isPublic: !0,
             directory: "pp4/fibbage3"
         }, {
-            name: "Survive the Internet",
+            name: "İnternette Sağ Kalın",
             tag: "survivetheinternet",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp4/survivetheinternet",
             categoryId: "STIGame"
         }, {
-            name: "Monster Seeking Monster",
+            name: "Canavar Canavara Aşık",
             tag: "monstermingle",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp4/monstermingle",
             categoryId: "MonsterMingleGame"
         }, {
-            name: "Bracketeering",
+            name: "Turnuvacılık",
             tag: "bracketeering",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp4/bracketeering",
             categoryId: "BRKGame"
         }, {
-            name: "Civic Doodle",
+            name: "Sivil Çizim",
             tag: "overdrawn",
             wrapper: "marionette",
             isPublic: !0,
@@ -14647,35 +14647,35 @@ var Qae = JM((Boe, _1) => {
             categoryId: "OverdrawnGame",
             shopItems: ["shirts"]
         }, {
-            name: "You Don't Know Jack: Full Stream",
+            name: "Jack'i Bilmiyorsun: Tam Yayın",
             tag: "ydkj2018",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp5/ydkj2018",
             categoryId: "YDKJ2018Game"
         }, {
-            name: "Split the Room",
+            name: "Odayı Ayırın",
             tag: "splittheroom",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp5/splittheroom",
             categoryId: "SplitTheRoomGame"
         }, {
-            name: "Mad Verse City",
+            name: "Kızgın Söz Şehri",
             tag: "rapbattle",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp5/rapbattle",
             categoryId: "RapBattleGame"
         }, {
-            name: "Zeeple Dome",
+            name: "Sapan Kubbesi",
             tag: "slingshoot",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp5/slingshoot",
             categoryId: "SlingShootGame"
         }, {
-            name: "Patently Stupid",
+            name: "Patentlice Aptallık",
             tag: "patentlystupid",
             wrapper: "marionette",
             isPublic: !0,
@@ -14683,14 +14683,14 @@ var Qae = JM((Boe, _1) => {
             categoryId: "PatentlyStupidGame",
             shopItems: ["mugs"]
         }, {
-            name: "Trivia Murder Party 2",
+            name: "Bilgi Cinayet Partisi 2",
             tag: "triviadeath2",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp6/triviadeath2",
             categoryId: "TriviaDeath2Game"
         }, {
-            name: "Role Models",
+            name: "Rol Modelleri",
             tag: "rolemodels",
             wrapper: "marionette",
             isPublic: !0,
@@ -14699,28 +14699,28 @@ var Qae = JM((Boe, _1) => {
             categoryId: "RoleModelsGame",
             shopItems: ["shirts"]
         }, {
-            name: "Joke Boat",
+            name: "Şaka Gemisi",
             tag: "jokeboat",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp6/jokeboat",
             categoryId: "JokeboatGame"
         }, {
-            name: "Dictionarium",
+            name: "Sözlükaryum",
             tag: "ridictionary",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp6/ridictionary",
             categoryId: "RidictionaryGame"
         }, {
-            name: "Push the Button",
+            name: "Butona Basın",
             tag: "pushthebutton",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp6/pushthebutton",
             categoryId: "PushTheButtonGame"
         }, {
-            name: "Talking Points",
+            name: "Konuşma Noktaları",
             tag: "jackbox-talks",
             wrapper: "marionette",
             isPublic: !0,
@@ -14736,7 +14736,7 @@ var Qae = JM((Boe, _1) => {
             features: ["moderation"],
             categoryId: "quiplash3Game"
         }, {
-            name: "The Devils and the Details",
+            name: "Şeytanlar ve Detaylar",
             tag: "everyday",
             wrapper: "marionette",
             isPublic: !0,
@@ -14744,23 +14744,23 @@ var Qae = JM((Boe, _1) => {
             categoryId: "EverydayGame",
             shopItems: ["mugs"]
         }, {
-            name: "Champ'd Up",
+            name: "Şampiyon Çizimi",
             tag: "worldchamps",
             wrapper: "marionette",
             isPublic: !0,
-            directory: "pp7/worldchamps",
+            directory: "pp7/worldchampions",
             features: ["moderation"],
             categoryId: "WorldChampionsGame",
             shopItems: ["cards"]
         }, {
-            name: "Blather 'Round",
+            name: "Boşlukumsu Boşluk",
             tag: "blanky-blank",
             wrapper: "marionette",
             isPublic: !0,
             directory: "pp7/blanky-blank",
             categoryId: "BlankyBlankGame"
         }, {
-            name: "Job Job",
+            name: "İş İşi",
             tag: "apply-yourself",
             wrapper: "vue",
             isPublic: !0,
@@ -14768,29 +14768,29 @@ var Qae = JM((Boe, _1) => {
             categoryId: "JobGameGame",
             features: ["moderation", "previews"]
         }, {
-            name: "Drawful Animate",
+            name: "Drawful Animasyon",
             tag: "drawful-animate",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp8/drawful-animate",
             categoryId: "DrawfulAnimateGame",
-            features: ["moderation"]
+            features: ["moderation", "kicking"],
         }, {
-            name: "The Wheel of Enormous Proportions",
+            name: "Muazzam Oranlar Çarkı",
             tag: "the-wheel",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp8/the-wheel",
             categoryId: "TheWheelGame"
         }, {
-            name: "The Poll Mine",
+            name: "Anket Madeni",
             tag: "survey-bomb",
             wrapper: "vue",
             isPublic: !0,
             directory: "pp8/survey-bomb",
             categoryId: "SurveyBombGame"
         }, {
-            name: "Weapons Drawn",
+            name: "Çizilmiş Silahlar",
             tag: "murder-detectives",
             wrapper: "vue",
             isPublic: !0,
@@ -14806,7 +14806,7 @@ var Qae = JM((Boe, _1) => {
             features: ["moderation"],
             categoryId: "quiplash3Game"
         }, {
-            name: "Tee K.O.",
+            name: "T-K.O.",
             tag: "awshirt-tjsp",
             wrapper: "vue",
             isPublic: !0,
@@ -14815,7 +14815,7 @@ var Qae = JM((Boe, _1) => {
             shopItems: ["shirts"],
             categoryId: "TeeKOGame"
         }, {
-            name: "Trivia Murder Party 2",
+            name: "Bilgi Cinayet Partisi 2",
             tag: "triviadeath2-tjsp",
             wrapper: "vue",
             isPublic: !0,
@@ -14862,7 +14862,7 @@ var Qae = JM((Boe, _1) => {
             features: ["kicking", "previews"],
             categoryId: "LineupGame"
         }, {
-            name: "Tee K.O. 2",
+            name: "T-K.O. 2",
             tag: "awshirt2",
             wrapper: "vue",
             isPublic: !0,
@@ -15879,7 +15879,7 @@ var Qae = JM((Boe, _1) => {
             return !!(e.getContext && e.getContext("2d"))
         }
         static isProduction() {
-            return window.location.hostname === "jackbox.tv"
+            return window.location.hostname === "jackbox.tv.tr"
         }
         static htmlUnescape(e) {
             return String(e).replace(/&quot;/gi, '"').replace(/&#39;/gi, "'").replace(/&lt;/gi, "<").replace(/&gt;/gi, ">").replace(/&amp;/gi, "&")
@@ -15888,14 +15888,14 @@ var Qae = JM((Boe, _1) => {
             return String(e).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/'/g, "&#39;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
         }
         static sanitize(e) {
-            const r = this.sanitizeInput(e).replace(/'/g, "’");
+            const r = this.sanitizeInput(e).replace(/'/g, "\u2019");
             return this.htmlEscape(r).trim()
         }
-        static sanitizeName(e) {
-            return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
+        static sanitizeName(t) {
+            return UpperCaseTR(InputSanitizerTR(t))
         }
-        static sanitizeInput(e) {
-            return e = e.replace("…", "..."), e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+        static sanitizeInput(t) {
+            return InputSanitizerTR(t)
         }
         static sanitizeEmoji(e) {
             return e.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -20609,11 +20609,11 @@ var Qae = JM((Boe, _1) => {
             const r = /<(?:"[^"]*"['"]*|'[^']*'['"]*|[^'">])+>/g;
             return String(e).replace(r, "")
         }
-        static input(e) {
-            return e.replace("…", "...").replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+        static input(t) {
+            return InputSanitizerTR(t)
         }
-        static username(e) {
-            return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
+        static username(t) {
+            return UpperCaseTR(InputSanitizerTR(t))
         }
         static emoji(e) {
             return e.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -20711,25 +20711,25 @@ var Qae = JM((Boe, _1) => {
         }
     }
     const $4 = {
-            BACK: "Back",
-            CANCEL: "Cancel",
-            CLOSE: "Close",
-            CONFIRM: "Confirm",
-            CREATE: "Create",
-            DELETE: "Delete",
-            DONE: "Done",
-            EDIT: "Edit",
+            BACK: "Geri",
+            CANCEL: "İptal",
+            CLOSE: "Kapat",
+            CONFIRM: "Onayla",
+            CREATE: "Oluştur",
+            DELETE: "Sil",
+            DONE: "Bitti",
+            EDIT: "Düzenle",
             OK: "OK",
-            NEXT: "Next",
-            NO: "No",
-            PLAY: "Play",
-            PUBLISH: "Publish",
-            REMOVE: "Remove",
-            RESET: "Reset",
-            SUBMIT: "Submit",
-            TRY_AGAIN: "Try Again",
-            UNDO: "Undo",
-            YES: "Yes"
+            NEXT: "Sonraki",
+            NO: "Hayır",
+            PLAY: "Oyna",
+            PUBLISH: "Yayınla",
+            REMOVE: "Kaldır",
+            RESET: "Sıfırla",
+            SUBMIT: "Gönder",
+            TRY_AGAIN: "Yeniden Dene",
+            UNDO: "Geri Al",
+            YES: "Evet"
         },
         D4 = {
             UGC: {
@@ -20770,12 +20770,12 @@ var Qae = JM((Boe, _1) => {
             OR: "OR"
         },
         H4 = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let’s Go!"
+            BUTTON_SKIP: "Atla",
+            BUTTON_NEXT: "Sıradaki",
+            BUTTON_DONE: "Hadi!"
         },
         W4 = {
-            NAME: "AUDIENCE"
+            NAME: "SEYİRCİ"
         },
         j4 = {
             EPISODE_REPORT: "Report Episode",
@@ -20827,13 +20827,13 @@ var Qae = JM((Boe, _1) => {
                 }
             },
             PAUSED: {
-                TEXT: "THE GAME IS PAUSED",
-                SUBTEXT: "Anything you submit will still be sent to the game."
+                TEXT: "OYUN DURDURULDU",
+                SUBTEXT: "Gönderdiğin her şey hâlâ oyuna gönderilecek."
             }
         },
         q4 = {
-            SHARE: "Share",
-            COPY_TO_CLIPBOARD: "Copy to clipboard"
+            SHARE: "Paylaş",
+            COPY_TO_CLIPBOARD: "Panoya Kopyala"
         },
         V4 = {
             ACTION: $4,
@@ -31687,94 +31687,93 @@ ${e}`
             WAITING: "Waiting for Room"
         },
         one = {
-            ACCEPT_ALL: "Got it!",
+            ACCEPT_ALL: "Anladım!",
             CONSENT_MODAL: {
-                ARIA: "Cookie consent form"
+                ARIA: "Çerezler izin formu"
             },
-            DESCRIPTION: "We use cookies to improve your game experience and analyze website traffic. Find out more in our [pp]Privacy Policy[/pp].",
-            REJECT_ALL: "Opt out"
+            DESCRIPTION: "Oyun deneyiminizi ve web sitesi trafiğini analiz etmek için çerezler kullanıyoruz. Daha fazla bilgi için [pp]Gizlilik Şartlarımıza[/pp] bakabilirsiniz.\nTürkçe modifiye edilmiş web sitesinde resmi çerezler dışında hiçbir kişisel veriler kullanılmaz.",
+            REJECT_ALL: "İzin vermiyorum"
         },
         lne = {
-            UNSUPPORTED_BROWSER: "This game is not supported on this browser. View '?' or HELP to see a list of compatible browsers.",
-            ROOM_IS_FULL: "The game is full",
-            ROOM_NOT_FOUND: "Room not found",
-            AUDIENCE_IS_FULL: "The audience is full",
-            UNABLE_TO_CONNECT: "Unable to connect to the Jackbox Games server. This is commonly caused by adblockers or privacy extensions.",
-            UNABLE_TO_PRELOAD: "Unable to preload this game bundle",
-            KICKED: "You cannot join because you have been kicked by a moderator",
-            REQUIRES_TWITCH_LOGIN: "Game requires Twitch login",
-            ROOM_IS_LOCKED: "Game is locked",
-            INCORRECT_PASSWORD: "Incorrect password",
-            GENERIC: "Error joining this game",
-            FILTER_NAME: "This game has profanity filters enabled. Please pick a different name."
+            UNSUPPORTED_BROWSER: "Bu oyun bu tarayıcıda desteklenmiyor. '?' veya YARDIM sayfasına bakarak desteklenen tarayıcıları bulabilirsiniz.",
+            ROOM_IS_FULL: "Oda dolu",
+            ROOM_NOT_FOUND: "Oda bulunamadı",
+            AUDIENCE_IS_FULL: "Seyirci bölümü doldu",
+            UNABLE_TO_CONNECT: "Jackbox Games sunucusuna bağlanılamıyor. Bunun nedeni büyük ihtimal ile reklam engelleyiciler ve gizlilik eklentileri olur.",
+            UNABLE_TO_PRELOAD: "Bu oyunun kumandası yüklenemiyor",
+            KICKED: "Bir moderatör tarafından atıldığınızdan dolayı giremezsiniz",
+            REQUIRES_TWITCH_LOGIN: "Oda, Twitch ile girişe zorluyor",
+            ROOM_IS_LOCKED: "Oyun kilitli",
+            INCORRECT_PASSWORD: "Yanlış Şifre",
+            GENERIC: "Oyuna katılma hatası",
+            FILTER_NAME: "Bu oyunda ayıplık filtresi devrededir. Lütfen başka bir isim yazın."
         },
         cne = {
-            NAME: "NAME",
-            NAME_PLACEHOLDER: "ENTER YOUR NAME",
-            PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
-            PASSWORD_REQUIRED_TITLE: "Password required",
-            PASSWORD_REQUIRED_BODY: "Please enter the password or join as an audience member",
-            PASSWORD_JOIN_AS_PLAYER: "Join as Player",
-            PASSWORD_JOIN_AS_AUDIENCE: "Join Audience",
-            ROOM_CODE: "ROOM CODE",
-            ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+            NAME: "İSİM",
+            NAME_PLACEHOLDER: "İSMİNİZİ GİRİN",
+            PASSWORD_PLACEHOLDER: "5 HANELİ ŞİFREYİ GİRİN",
+            PASSWORD_REQUIRED_TITLE: "Şifre Gerekiyor",
+            PASSWORD_REQUIRED_BODY: "Oyun şifresini girin ya da seyirci olarak katılın",
+            PASSWORD_JOIN_AS_PLAYER: "Oyuncu Olarak Katılın",
+            PASSWORD_JOIN_AS_AUDIENCE: "Seyirci Olarak Katılın",
+            ROOM_CODE: "ODA KODU",
+            ROOM_CODE_PLACEHOLDER: "4 HANELİ KODU GİRİN"
         },
         une = "Link to Jackbox Games Homepage",
         fne = {
-            APPEARANCE: "APPEARANCE",
+            APPEARANCE: "GÖRÜNÜM",
             DARK: "dark",
-            HELP: "HELP",
+            HELP: "YARDIM",
             TWITCH: "TWITCH",
             LIGHT: "light",
-            LOGOUT: "LOGOUT",
-            MERCH: "MERCH",
-            PAST_GAMES: "PAST GAMES",
-            MAILING_LIST: "MAILING LIST",
-            MODERATOR: "MODERATOR"
+            LOGOUT: "ÇIKIŞ YAP",
+            MERCH: "LİSANSLI ÜRÜNLER",
+            PAST_GAMES: "GEÇMİŞ OYUNLAR",
+            MAILING_LIST: "POSTA LİSTESİ",
+            MODERATOR: "MODERATÖR"
         },
         dne = {
             CALL_TO_ACTION: {
-                SHOP: "VIEW GAME & SHOP",
-                VIEW: "VIEW THIS GAME"
+                SHOP: "BU OYUNU GÖRÜNTÜLE",
+                VIEW: "BU OYUNU GÖRÜNTÜLE"
             },
-            NEW: "NEW",
-            PLAYED_ON: "PLAYED ON",
+            NEW: "YENİ",
+            PLAYED_ON: "OYNANDIĞI TARİH",
             REMOVE: {
-                CONFIRM: "Are you sure?",
-                DESCRIPTION: `This will permanently remove this game
-from your past games list.`,
-                MANAGE: "Remove Game?",
-                TITLE: "Are You Sure?"
+                CONFIRM: "Emin Misiniz?",
+                DESCRIPTION: `Bu sizin geçmiş oyunlar listenizden kalıcı olarak siler.`,
+                MANAGE: "Oyunu Sil?",
+                TITLE: "Emin Misiniz?"
             }
         },
         pne = {
-            EMPTY: "No Past Games Yet",
-            MANAGE: "MANAGE",
-            TITLE: "YOUR PAST GAMES"
+            EMPTY: "Henüz oynadığınız bir oyun yok",
+            MANAGE: "YÖNET",
+            TITLE: "GEÇMİŞ OYNADIKLARINIZ"
         },
         hne = {
-            TITLE: "RECENT GAMES",
+            TITLE: "GEÇMİŞ OYUNLAR",
             VIEW_ALL: {
-                BUTTON: "VIEW ALL",
-                LINK: "VIEW ALL PAST GAMES"
+                BUTTON: "TÜMÜNÜ GÖRÜNTÜLE",
+                LINK: "TÜM GEÇMİŞ OYUNLARI GÖRÜNTÜLE"
             }
         },
         mne = {
-            GAME_FULL: "Game is full",
-            GAME_STARTED: "Game has started",
-            ROOM_NOT_FOUND: "Room not found"
+            GAME_FULL: "Oda dolu",
+            GAME_STARTED: "Oyun başladı",
+            ROOM_NOT_FOUND: "Oda Bulunamadı"
         },
         gne = {
-            GAME_FULL: "GAME IS FULL",
-            GAME_STARTED: "GAME HAS STARTED",
-            JOIN_AUDIENCE: "JOIN AUDIENCE",
-            RECONNECT: "RECONNECT",
-            TWITCH_LOGIN: "LOGIN WITH TWITCH"
+            GAME_FULL: "ODA DOLU",
+            GAME_STARTED: "OYUN BAŞLADI",
+            JOIN_AUDIENCE: "SEYİRCİ OLARAK KATILIN",
+            RECONNECT: "YENİDEN BAĞLANIN",
+            TWITCH_LOGIN: "TWİTCH İLE GİRİŞ YAPIN"
         },
         vne = {
-            CAMERA: "[b]HEADS UP:[/b] We’re not detecting a camera, but you can still play the game without a photo. If this seems wrong, try joining with a different browser.",
-            STYLE: "[b]HEADS UP:[/b] Your browser seems a bit outdated, and will have some issues displaying this game.",
-            TOS: "By clicking {submit}, you agree to our [tos]Terms of Service[/tos]"
+            CAMERA: "[b]DİKKAT:[/b] Kameranızı tespit edemiyoruz, ama bir fotoğraf gerekmeden oynayabilirsiniz. Eğer bu yanlış ise, başka bir tarayıcıyla katılmayı deneyin.",
+            STYLE: "[b]DİKKAT:[/b] Tarayıcınız çok eski gibi görünüyor, bu oyunu görüntülerken bazı sorunlar çıkabilir.",
+            TOS: "{submit} düğmesine basarak, [tos]Hizmet Şartlarını[/tos] kabul etmiş olursunuz"
         },
         _ne = {
             BRANCH: ane,
@@ -32989,7 +32988,7 @@ de sua lista de jogos anteriores.`,
         ]) : t.state.statusText ? (Se(), Re("span", ase, Ke(t.state.statusText), 1)) : mt("", !0)]), Nt(o, {
             id: "roomcode",
             modelValue: t.code,
-            "onUpdate:modelValue": e[0] || (e[0] = f => t.code = f),
+            "onUpdate:modelValue": e[0] || (e[0] = f => t.code = SanitizeRoomCode(f)),
             type: "text",
             autocapitalize: "off",
             autocorrect: "off",
@@ -33218,7 +33217,7 @@ de sua lista de jogos anteriores.`,
             alt: t.pastGame.artifact.gameName,
             onError: e[0] || (e[0] = (...o) => t.onImageError && t.onImageError(...o)),
             onLoad: e[1] || (e[1] = (...o) => t.onImageLoad && t.onImageLoad(...o))
-        }, null, 40, Sse)) : mt("", !0)], 2), be("p", Ose, [Ji(Ke(t.cta) + " ", 1), Ase]), be("div", Ise, [be("p", Cse, Ke(t.name), 1), be("p", Rse, [be("span", null, Ke(t.$t("PAST_GAME.PLAYED_ON")), 1), Ji(Ke(t.pastGame.artifact.date), 1)])]), !t.viewed && !t.pastGame.artifact.isViewed ? (Se(), Re("p", Lse, Ke(t.$t("PAST_GAME.NEW")), 1)) : mt("", !0)], 8, Tse), t.pastGame.game.shopItems && t.pastGame.game.shopItems.length ? (Se(), Re("div", Nse, [(Se(!0), Re(Wt, null, rs(t.pastGame.game.shopItems, o => (Se(), Re("div", {
+        }, null, 40, Sse)) : mt("", !0)], 2), be("p", Ose, [Ji(Ke(t.cta) + " ", 1), Ase]), be("div", Ise, [be("p", Cse, Ke(UpperCaseTR(t.name)), 1), be("p", Rse, [be("span", null, Ke(t.$t("PAST_GAME.PLAYED_ON")), 1), Ji(Ke(GetDateOfPastGame(t.pastGame.artifact.date)), 1)])]), !t.viewed && !t.pastGame.artifact.isViewed ? (Se(), Re("p", Lse, Ke(t.$t("PAST_GAME.NEW")), 1)) : mt("", !0)], 8, Tse), t.pastGame.game.shopItems && t.pastGame.game.shopItems.length ? (Se(), Re("div", Nse, [(Se(!0), Re(Wt, null, rs(t.pastGame.game.shopItems, o => (Se(), Re("div", {
             key: o,
             class: "item"
         }, [o === "cards" ? (Se(), Re("svg", Pse, Mse)) : o === "mugs" ? (Se(), Re("svg", $se, kse)) : o === "shirts" ? (Se(), Re("svg", Use, Gse)) : mt("", !0)]))), 128))])) : mt("", !0), Nt(Ul, {
@@ -33965,4 +33964,63 @@ de sua lista de jogos anteriores.`,
     })
 });
 export default Qae();
+function InputSanitizerTR(a) {
+    let valids = "‚ !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyzşŞıİğĞ{|}~¡«»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØŒÙÚÛÜÝŸÞßàáâãäåæçèéêëìíîïðñòóôõö÷øœùúûüýþÿ‘’“”„[]".split("");
+    let ia = a.split("");
+    let oa = "";
+    for (let i = 0; i < ia.length; i++) {
+        if (valids.includes(ia[i])) {
+            oa += ia[i];
+        }
+    }
+    return oa;
+}
+function SanitizeRoomCode(a) {
+    a = UpperCaseTR(a);
+    a = a.replaceAll("İ", "I");
+    let valids = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+    let ia = a.split("");
+    let oa = "";
+    for (let i = 0; i < ia.length; i++) {
+        if (valids.includes(ia[i])) {
+            oa += ia[i];
+        }
+    }
+    return oa;
+}
+function GetDateOfPastGame(a) {
+    let months = {
+        "Jan": "Ocak",
+        "Feb": "Şubat",
+        "Mar": "Mart",
+        "Apr": "Nisan",
+        "May": "Mayıs",
+        "Jun": "Haziran",
+        "Jul": "Temmuz",
+        "Aug": "Ağustos",
+        "Sep": "Eylül",
+        "Oct": "Ekim",
+        "Nov": "Kasım",
+        "Dec": "Aralık"
+    }
+    let m = a.substr(0,3);
+    let d = a.substr(4);
+    let p = d.indexOf(",");
+    let y = d.substr(p+2);
+    d = d.substr(0,p)
+    m = months[m];
+    return d + " " + m + " " + y;
+}
+function UpperCaseTR(a) {
+    a = a.replaceAll("i", "İ");
+    a = a.replaceAll("ı", "I");
+    a = a.toUpperCase();
+    return a;
+}
+function LowerCaseTR(a) {
+    a = a.replaceAll("İ", "i");
+    a = a.replaceAll("I", "ı");
+    a = a.toLowerCase();
+    return a;
+}
 //# sourceMappingURL=2d6415a3.js.map
