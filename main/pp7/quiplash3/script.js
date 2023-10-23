@@ -13271,7 +13271,7 @@ const NC = `<form>\r
         <div class="inputGroup">\r
             <textarea id="input-text-textarea" rows="1" class="form-control jbg-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>\r
             <span class="inlineSubmit">\r
-                <button type="submit" class="btn btn-default inlineSubmitButton" type="button"><span class="inlineSubmitText">Send</span></button>\r
+                <button type="submit" class="btn btn-default inlineSubmitButton" type="button"><span class="inlineSubmitText">Gönder</span></button>\r
             </span>\r
             <span id="helpBlock2" class="help-block errorText"></span>\r
             <div class="charCountDisplay"><span class="charRemaining">70</span></div>\r
@@ -16393,7 +16393,7 @@ const i1 = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
         <div id="buttons" class="buttons"></div>\r
         <div id="post-sketchpad" class="post-sketchpad">\r
             <div id="submit">\r
-                <button id='submitdrawing' class="button submitDrawing">Submit</button><br/>\r
+                <button id='submitdrawing' class="button submitDrawing">Gönder</button><br/>\r
             </div>\r
             <button id='censorOptions' class='button'>Censor Options</button>\r
             <div class="footer"></div>\r
@@ -16650,11 +16650,11 @@ const i1 = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             autocapitalize: !1,
             className: "",
             inlineSubmit: !1,
-            inlineSubmitText: "Submit",
+            inlineSubmitText: "Gönder",
             error: "",
             strings: {
-                ERROR_NOTHING_ENTERED: "You need to enter something!",
-                ERROR_REJECTED_TEXT: "That's not allowed, enter something else! (You can change the level of filtering in the game's settings menu)"
+                ERROR_NOTHING_ENTERED: "Bir şey yazmanız gerekiyor!",
+                ERROR_REJECTED_TEXT: "Buna izin yok, başka bir şey gir!"
             }
         }
     }),
@@ -16998,28 +16998,28 @@ const u1 = `<div id="controller" class="state-controller controller-content">
             formattedActiveContentId: null,
             isLocal: !1,
             strings: {
-                wait: "Sit back and relax!",
-                vip_waiting: "Waiting for all players to join",
-                vip_canStart: "Press this button when everybody has joined",
-                vip_cancel: "Press this button to cancel game start",
-                vip_postgame: "What would you like to do now?",
-                vip_episodes_menu: "Episodes Menu",
-                vip_episodes_unload: "Unload Episode",
-                vip_episodes_report: "Report Episode",
-                vip_episodes_warning: "Warning: user generated content is not rated",
-                vip_episodes_load: "Load an episode by id:",
-                vip_episodes_select: "Or select an episode:",
-                vip_episodes_back: "Back",
-                vip_episodes_submit: "SUBMIT",
-                vip_episodes_view_author: "View Author",
-                button_start: "Everybody's In",
-                button_cancel: "Cancel",
-                button_changename: "Change Name",
-                button_sameplayers: "Same Players",
-                button_newplayers: "New Players",
-                prompt_entername: "Enter your name",
-                prompt_choosecharacter: "Select your character",
-                button_censorOptions: "Censor Options",
+                wait: "Otur ve rahatla!",
+                vip_waiting: "Diğer oyuncuların katılması bekleniyor",
+                vip_canStart: "Herkes katıldığı zaman bu düğmeye basın",
+                vip_cancel: "Başlamayı iptal etmek için bu düğmeye basın",
+                vip_postgame: "Şimdi ne yapmak istiyorsunuz?",
+                vip_episodes_menu: "Bölümler Menüsü",
+                vip_episodes_unload: "Bölümü Çıkar",
+                vip_episodes_report: "Bölümü Bildir",
+                vip_episodes_warning: "Uyarı: kullanıcıdan oluşturulmuş içerikler derecelendirilmemiş",
+                vip_episodes_load: "Bir bölümü kimliğiyle yükle:",
+                vip_episodes_select: "Ya da bir bölümü seçin:",
+                vip_episodes_back: "Geri",
+                vip_episodes_submit: "GÖNDER",
+                vip_episodes_view_author: "Yazarı Görüntüle",
+                button_start: "Herkes Burada",
+                button_cancel: "İptal",
+                button_changename: "İsim Değiştir",
+                button_sameplayers: "Aynı Oyuncular",
+                button_newplayers: "Yeni Oyuncular",
+                prompt_entername: "İsminizi Girin",
+                prompt_choosecharacter: "Karakterinizi Seçin",
+                button_censorOptions: "Sansür Seçenekleri",
                 censor_prompt: ""
             }
         }
@@ -17579,7 +17579,7 @@ const u1 = `<div id="controller" class="state-controller controller-content">
             announcePrompt: !1,
             countGroupName: null,
             strings: {
-                your_choice: "Thank you. Your choice: ",
+                your_choice: "Teşekkürler. Seçiminiz: ",
                 censor_prompt: "Censor this?",
                 censor_confirm: "Yes, Censor!",
                 censor_cancel: "No!"
@@ -19432,29 +19432,29 @@ const W1 = `<div id="controller" class="state-controller controller-content">\r
             text: "",
             validActions: [],
             strings: {
-                tos_warning: "By sharing content, you agree to our Terms of service",
-                tos_warning_agree: "agree and share",
-                tos_warning_back: "back to menu",
-                create_new_episode: "create a new episode",
-                create_new_name_prompt: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                create_new_button: "create",
-                button_back_to_episodes: "back to episodes",
-                button_back_to_menu: "back to menu",
-                previous_episodes: "previous episodes:",
-                toggle_prompts_prompt: "tap to show/hide prompts",
-                button_close: "close",
-                button_done: "done",
-                button_add: "add prompt",
-                input_placeholder: "enter a prompt",
-                label_hidden: "hidden",
-                button_edit: "edit",
-                button_save: "save",
-                button_publish: "publish",
-                button_play: "play",
-                button_delete: "delete",
-                delete_warning: "Are you sure you want to delete this episode?",
-                delete_warning_confirm: "Yes",
-                delete_warning_cancel: "No"
+                tos_warning: "İçerik paylaşarak, [tos]Hizmet Şartlarını[/tos] kabul edersiniz.",
+                tos_warning_agree: "kabul et ve paylaş",
+                tos_warning_back: "menüye dön",
+                create_new_episode: "yeni bölüm oluştur",
+                create_new_name_prompt: "ilk olarak, bütün istemleri içerecek bölüme bir isim verin ve oluştur düğmesine basın.",
+                create_new_button: "oluştur",
+                button_back_to_episodes: "bölümlere dön",
+                button_back_to_menu: "menüye dön",
+                previous_episodes: "geçmiş bölümler:",
+                toggle_prompts_prompt: "istemleri göstermek/gizlemek için dokunun",
+                button_close: "kapat",
+                button_done: "bitti",
+                button_add: "istem ekle",
+                input_placeholder: "bir istem girin",
+                label_hidden: "gizli",
+                button_edit: "düzenle",
+                button_save: "kaydet",
+                button_publish: "yayınla",
+                button_play: "oyna",
+                button_delete: "sil",
+                delete_warning: "Bu bölümü silmek istediğinizden emin misiniz?",
+                delete_warning_confirm: "Evet",
+                delete_warning_cancel: "Hayır"
             }
         }
     }),
@@ -21524,8 +21524,8 @@ const cx = yt.View.extend({
     Ex = Rn.extend({
         defaults: {
             toggled: !1,
-            leftLabel: "Regular Prompt",
-            rightLabel: "Thriplash Prompt"
+            leftLabel: "Sıradan İstem",
+            rightLabel: "Üçlü Lash İstemi"
         }
     }),
     _x = yt.View.extend({
@@ -21716,7 +21716,7 @@ const Tx = Ic.extend({
         return t.classes = t.classes || [], t.playerInfo = t.playerInfo || {}, t.playerInfo.classes = t.playerInfo.classes || [], t.state === "MakeSingleChoice" && t.choices.forEach(e => {
             e.html && (e.html = e.html.replace(/<div>/gi, '<span class="thriplash-part">'), e.html = e.html.replace(/<\/div>/gi, '</span><span class="visuallyhidden">,</span>'))
         }), t.playerInfo.avatar && (t.classes = We.union(t.classes, [t.playerInfo.avatar]), t.playerInfo.classes = We.union(t.playerInfo.classes, [t.playerInfo.avatar])), t.isAudience && (t.playerInfo = {
-            username: "AUDIENCE",
+            username: "SEYİRCİ",
             classes: ["Audience"]
         }), t.state === "UGC" && (t.playerInfo.classes = We.union(t.playerInfo.classes, ["UGCView"])), t.textDescriptions && t.textDescriptions.length && (t.textDescriptions = t.textDescriptions.map(e => ({
             ...e,
