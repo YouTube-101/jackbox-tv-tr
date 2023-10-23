@@ -31691,7 +31691,7 @@ ${e}`
             CONSENT_MODAL: {
                 ARIA: "Çerezler izin formu"
             },
-            DESCRIPTION: "Oyun deneyiminizi ve web sitesi trafiğini analiz etmek için çerezler kullanıyoruz. Daha fazla bilgi için [pp]Gizlilik Şartlarımıza[/pp] bakabilirsiniz.\nTürkçe modifiye edilmiş web sitesinde resmi çerezler dışında hiçbir kişisel veriler kullanılmaz.",
+            DESCRIPTION: "Oyun deneyiminizi ve web sitesi trafiğini analiz etmek için çerezler kullanıyoruz. Daha fazla bilgi için [pp]Gizlilik Şartlarımıza[/pp] bakabilirsiniz.\nBu web sitesi orijinal versiyonundan modifiye edilmiştir ve Jackbox Games şirketine bağlı veya şirketten onaylı değildir. Lütfen resmi sürümü destekleyin!\nTürkçe modifiye edilmiş web sitesinde resmi çerezler dışında hiçbir kişisel veriler kullanılmaz.",
             REJECT_ALL: "İzin vermiyorum"
         },
         lne = {
