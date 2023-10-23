@@ -16645,7 +16645,7 @@ const LC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             e = UpperCaseTR(e);
             t.el.childNodes[0].childNodes[1].childNodes[1].childNodes[1].value = e
             e.length > this.model.get("maxLength") && (e = e.substr(0, this.model.get("maxLength")), t.setValue(e)), this.shouldSubmit = e.length > 0, this.model.get("live") && (this.throttledSend || (this.throttledSend = qe.throttle(() => {
-                const n = t.getSanitizedValue();
+                const n = e;
                 if (n.length === 0) return;
                 const i = {
                         action: "write-live",
