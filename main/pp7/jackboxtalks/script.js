@@ -16641,6 +16641,9 @@ const LC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
         },
         onChildviewInputText(t) {
             let e = t.getValue();
+            e = InputSanitizerTR(e);
+            e = UpperCaseTR(e);
+            t.el.childNodes[0].childNodes[1].childNodes[1].childNodes[1].value = e
             e.length > this.model.get("maxLength") && (e = e.substr(0, this.model.get("maxLength")), t.setValue(e)), this.shouldSubmit = e.length > 0, this.model.get("live") && (this.throttledSend || (this.throttledSend = qe.throttle(() => {
                 const n = t.getSanitizedValue();
                 if (n.length === 0) return;
@@ -16653,8 +16656,11 @@ const LC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             }, 500)), this.throttledSend())
         },
         onChildviewInputSubmit() {
-            let t = this.inputComponent.getValue(),
-                e = this.inputComponent.getSanitizedValue();
+            let t = this.inputComponent.getValue();
+            console.log(t);
+            let e = InputSanitizerTR(t);
+            e = UpperCaseTR(e);
+            console.log(e);
             if (this.model.setUpdate({
                     error: null
                 }), e.length === 0 && !this.model.get("allowEmpty")) return this.model.setUpdate({
@@ -16890,7 +16896,7 @@ const zC = `<div id="controller" class="state-controller controller-content">
             formattedActiveContentId: null,
             isLocal: !1,
             strings: {
-                wait: "Sit back and relax!",
+                wait: "Oturun ve dinlenin!",
                 vip_waiting: "Waiting for all players to join",
                 vip_canStart: "Press this button when everybody has joined",
                 vip_cancel: "Press this button to cancel game start",
@@ -16902,7 +16908,7 @@ const zC = `<div id="controller" class="state-controller controller-content">
                 vip_episodes_load: "Load an episode by id:",
                 vip_episodes_select: "Or select an episode:",
                 vip_episodes_back: "Back",
-                vip_episodes_submit: "SUBMIT",
+                vip_episodes_submit: "GÖNDER",
                 vip_episodes_view_author: "View Author",
                 button_start: "Everybody's In",
                 button_cancel: "Cancel",
@@ -21491,12 +21497,12 @@ const zx = ft.View.extend({
             
         </div>
         <div class="add">
-            <button>ADD SLIDE</button>
+            <button>SLAYT EKLE</button>
         </div>
     </div>    
 </div>
 <div class="submitRegion footer">
-    <button class="submit">SUBMIT</button>
+    <button class="submit">GÖNDER</button>
 </div>`,
     c1 = Tn.extend({
         defaults: {
@@ -21721,4 +21727,21 @@ const d1 = Bx.extend({
 Ux({
     MainView: d1
 });
+function InputSanitizerTR(a) {
+    let valids = "‚ !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyzşŞıİğĞ{|}~¡«»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØŒÙÚÛÜÝŸÞßàáâãäåæçèéêëìíîïðñòóôõö÷øœùúûüýþÿ‘’“”„[]".split("");
+    let ia = a.split("");
+    let oa = "";
+    for (let i = 0; i < ia.length; i++) {
+        if (valids.includes(ia[i])) {
+            oa += ia[i];
+        }
+    }
+    return oa;
+}   
+function UpperCaseTR(a) {
+    a = a.replaceAll("i", "İ");
+    a = a.replaceAll("ı", "I");
+    a = a.toUpperCase();
+    return a;
+}
 //# sourceMappingURL=1c7ff2d7.js.map
