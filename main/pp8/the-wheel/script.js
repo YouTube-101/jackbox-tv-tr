@@ -27868,66 +27868,66 @@ ${e}`
                 })
             })
         },
-        Lce = "ASK",
-        Mce = "You have used a word The Wheel does not approve of. Please try again.",
-        Pce = "NO",
-        kce = "OR",
-        Nce = "SEND",
-        Rce = "SUBMIT",
-        Dce = "WAIT TO TRY AGAIN",
-        Bce = "UNDO",
-        Fce = "YES",
+        Lce = "SOR",
+        Mce = "Çarkın kabul etmediği bir kelime kullandınız. Lütfen yeniden deneyin.",
+        Pce = "HYR",
+        kce = "YA DA",
+        Nce = "GÖNDER",
+        Rce = "GÖNDER",
+        Dce = "BİRAZ BEKLEYİN",
+        Bce = "GERİ AL",
+        Fce = "EVT",
         Uce = {
-            NAME: "THE AUDIENCE",
-            VOTE_NOW: "VOTE NOW",
-            THANKS: ["Thank you, dear audience.", "Every vote counts. Even yours!", "I thank you with all my enormity.", "I bestow upon you my deepest gratitude.", "Many thanks. I won't forget this."]
+            NAME: "SAYIN SEYİRCİ",
+            VOTE_NOW: "ŞİMDİ OY VERİN",
+            THANKS: ["Teşekkürler, sayın seyirci.", "Her oy sayılır. Sizinki bile!", "Büyüklüğümle size teşekkür ediyorum.", "En derin minnettarlığımla teşekkür ediyorum.", "Çok teşekkürler. Bunu unutmayacağım."]
         },
         zce = {
-            BANNER: "WHAT AM I THINKING?",
-            INCORRECT: "TRY AGAIN",
-            CORRECT: "GOT IT",
-            PLACEHOLDER: "Enter A Guess"
+            BANNER: "BEN NE DÜŞÜNÜYORUM?",
+            INCORRECT: "YENİDEN DENEYİN",
+            CORRECT: "DOĞRU CEVAP",
+            PLACEHOLDER: "Bir Cevap Yazın"
         },
         Gce = {
-            BANNER: "COUNTERPARTS",
-            CORRECT: "MATCH",
-            FROZEN: "INCORRECT"
+            BANNER: "EŞLEŞTİRME",
+            CORRECT: "EŞLEŞTİRİLDİ",
+            FROZEN: "YANLIŞ"
         },
         jce = {
-            BANNER: "ENUMERATE"
+            BANNER: "SAYIYLA GİRİN"
         },
         Wce = {
-            PLACE: "PLACE YOUR SLICES",
-            SUBMIT: "DONE! PRESS SUBMIT",
-            THANKS: "NICE JOB"
+            PLACE: "DİLİMLERİNİZİ YERLEŞTİRİN",
+            SUBMIT: "BU KADAR! GÖNDER'E BASIN",
+            THANKS: "AFERİN"
         },
         Vce = {
-            BANNER: "WELCOME",
-            PLACEHOLDER: "Enter A Question"
+            BANNER: "HOŞ GELDİNİZ",
+            PLACEHOLDER: "Bir Soru Yazın"
         },
         Kce = {
-            BANNER: "THAT [small]OR[/small] THIS",
-            CORRECT: "CORRECT",
-            FROZEN: "INCORRECT"
+            BANNER: "BU [small]YA DA[/small] ŞU",
+            CORRECT: "DOĞRU",
+            FROZEN: "YANLIŞ"
         },
         qce = {
-            ANSWER_BANNER: "YOU WIN!",
-            MAIN_BANNER: "SPIN [small]THE[/small] WHEEL",
-            RAINBOW_BANNER: "RAINBOW WHEEL",
-            WIN_BANNER: "FOR [small]THE[/small] WIN"
+            ANSWER_BANNER: "KAZANDIN!",
+            MAIN_BANNER: "ÇARKI ÇEVİR",
+            RAINBOW_BANNER: "GÖKKUŞAĞI ÇARKI",
+            WIN_BANNER: "ZAFER İÇİN"
         },
         Hce = {
-            OBJECTIVE_BANNER: "DON'T FORGET TO WRITE",
-            SUBJECTIVE_BANNER: "SUBJECTIVELY YOURS",
-            CORRECT: "GOOD",
-            TAKEN: "ANSWERED",
-            OBJECTIVE_INCORRECT: "WRONG",
-            SUBJECTIVE_INCORRECT: "NOPE",
-            PLACEHOLDER: "Enter A Guess"
+            OBJECTIVE_BANNER: "YAZMAYI UNUTMAYIN",
+            SUBJECTIVE_BANNER: "KİŞİSEL OLARAK SİZİN",
+            CORRECT: "GÜZEL",
+            TAKEN: "YANITLANDI",
+            OBJECTIVE_INCORRECT: "YANLIŞ",
+            SUBJECTIVE_INCORRECT: "HAYIR",
+            PLACEHOLDER: "Bir Tahmin Yazın"
         },
         Yce = {
-            SPIN: '[player avatar="{avatar}"]{name}[/player] is the spinner',
-            MESSAGES: ["Remember... patience is a virtue.", "This is a blank screen. Or is it?", "Action awaits!", "Oh, the waiting. The waiting!", "Just wait till the next part!", "Hey, nice controller! Sorry, just making conversation.", "(Insert on-hold music here)", "Sit tight, little meeple.", "I believe in you. Shhh... don't tell anyone.", "It's about to get exciting in here.", "Nothing to see here.", "Behold... a screen with only these words on it.", "Property of the Wheel of Enormous Proportions", "The Wheel Was Here"]
+            SPIN: '[player avatar="{avatar}"]{name}[/player] çarkı çeviriyor',
+            MESSAGES: ["Hatırla... sabırlık bir erdemdir.", "Bu boş bir ekran. Yoksa öyle mi?", "Aksiyon bekleniyor!", "Ah, beklemek. Beklemek!", "Sadece sonraki bölümü bekleyin!", "Selam, kumandan güzelmiş! Pardon, sadece konuşmaya çalışıyordum.", "(Buraya telefon bekleme müziği koyun)", "Sıkı otur, küçük adam.", "Sana inanıyorum. Şşşşş... kimseye söyleme.", "Burası heyacanlanmak üzere.", "Burada görülecek bir şey yok.", "Karşında... sadece bu harfleri içeren bir ekran.", "Muazzam Oranlar Çarkı'nın mülküdür", "Çark buradaydı"]
         },
         Xce = {
             ANSWER: "answer slice.",
