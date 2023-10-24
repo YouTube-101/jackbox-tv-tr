@@ -13450,7 +13450,7 @@ var ghe = KI((i5e, m7) => {
             return !!(e.getContext && e.getContext("2d"))
         }
         static isProduction() {
-            return window.location.hostname === "jackbox.tv"
+            return window.location.hostname === "jackbox.tv.tr"
         }
         static htmlUnescape(e) {
             return String(e).replace(/&quot;/gi, '"').replace(/&#39;/gi, "'").replace(/&lt;/gi, "<").replace(/&gt;/gi, ">").replace(/&amp;/gi, "&")
@@ -13462,11 +13462,11 @@ var ghe = KI((i5e, m7) => {
             const r = this.sanitizeInput(e).replace(/'/g, "’");
             return this.htmlEscape(r).trim()
         }
-        static sanitizeName(e) {
-            return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
+        static sanitizeName(t) {
+            return UpperCaseTR(InputSanitizerTR(t))
         }
-        static sanitizeInput(e) {
-            return e = e.replace("…", "..."), e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+        static sanitizeInput(t) {
+            return InputSanitizerTR(t)
         }
         static sanitizeEmoji(e) {
             return e.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -18843,11 +18843,11 @@ ${r.message}`,
             const r = /<(?:"[^"]*"['"]*|'[^']*'['"]*|[^'">])+>/g;
             return String(e).replace(r, "")
         }
-        static input(e) {
-            return e.replace("…", "...").replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+        static input(t) {
+            return InputSanitizerTR(t)
         }
-        static username(e) {
-            return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
+        static username(t) {
+            return UpperCaseTR(InputSanitizerTR(t))
         }
         static emoji(e) {
             return e.replace(/(\u00a9|\u00ae|[\u2000-\u2017]|[\u2020-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/, "")
@@ -37952,3 +37952,62 @@ ${e}`
 });
 export default ghe();
 //# sourceMappingURL=b6979089.js.map
+function InputSanitizerTR(a) {
+    let valids = "‚ !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyzşŞıİğĞ{|}~¡«»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØŒÙÚÛÜÝŸÞßàáâãäåæçèéêëìíîïðñòóôõö÷øœùúûüýþÿ‘’“”„[]".split("");
+    let ia = a.split("");
+    let oa = "";
+    for (let i = 0; i < ia.length; i++) {
+        if (valids.includes(ia[i])) {
+            oa += ia[i];
+        }
+    }
+    return oa;
+}
+function SanitizeRoomCode(a) {
+    a = UpperCaseTR(a);
+    a = a.replaceAll("İ", "I");
+    let valids = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+    let ia = a.split("");
+    let oa = "";
+    for (let i = 0; i < ia.length; i++) {
+        if (valids.includes(ia[i])) {
+            oa += ia[i];
+        }
+    }
+    return oa;
+}
+function GetDateOfPastGame(a) {
+    let months = {
+        "Jan": "Ocak",
+        "Feb": "Şubat",
+        "Mar": "Mart",
+        "Apr": "Nisan",
+        "May": "Mayıs",
+        "Jun": "Haziran",
+        "Jul": "Temmuz",
+        "Aug": "Ağustos",
+        "Sep": "Eylül",
+        "Oct": "Ekim",
+        "Nov": "Kasım",
+        "Dec": "Aralık"
+    }
+    let m = a.substr(0,3);
+    let d = a.substr(4);
+    let p = d.indexOf(",");
+    let y = d.substr(p+2);
+    d = d.substr(0,p)
+    m = months[m];
+    return d + " " + m + " " + y;
+}
+function UpperCaseTR(a) {
+    a = a.replaceAll("i", "İ");
+    a = a.replaceAll("ı", "I");
+    a = a.toUpperCase();
+    return a;
+}
+function LowerCaseTR(a) {
+    a = a.replaceAll("İ", "i");
+    a = a.replaceAll("I", "ı");
+    a = a.toLowerCase();
+    return a;
+}
