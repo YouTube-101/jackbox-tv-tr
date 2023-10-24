@@ -12866,16 +12866,16 @@ ${r.message}`,
             },
             RECONNECTED: {
                 TEXT: "YENİDEN BAĞLANILDI",
-                SUBTEXT: "İyi eğlenceler!"
+                SUBTEXT: "İyi Eğlenceler!"
             },
             RECONNECTING: {
                 CONTROLLER: {
                     TEXT: "BAĞLANTI SARSILDI",
-                    SUBTEXT: "Yeniden bağlanılmaya çalışılıyor ({attempt} / 5)"
+                    SUBTEXT: "Yeniden Bağlanılıyor... (Deneme {attempt} / 5)"
                 },
                 GAME: {
                     TEXT: "OYUN BAĞLANTISI SARSILDI",
-                    SUBTEXT: "Yeniden bağlanmaya çalışılırken lütfen bekleyin"
+                    SUBTEXT: "Oyun ekranını yeniden bağlarken lütfen bekleyin..."
                 }
             }
         },

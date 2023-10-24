@@ -20740,34 +20740,34 @@ var Qae = JM((Boe, _1) => {
             }
         },
         k4 = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I’m afraid you can’t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can’t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "Bağlantınız Kesildi.",
+            DRAWING_NOTHING: "Bir şey çizmeniz gerek!",
+            PLAYER_KICKED: "Bu oyundan bir moderatör sizi attı.",
+            ROOM_DESTROYED: "Oynadığınız için teşekkürler!",
+            ROOM_DISCONNECTED: "BAĞLANTI KESİLDİ",
+            TEXT_NAUGHTY: "Üzgünüz ama bunu yazamazsınız. Diğer oyunculara karşı saygılı olun.",
+            TEXT_NOTHING: "You can\u2019t enter nothing!",
+            TITLE: "HATA"
         },
-        U4 = "LOADING",
+        U4 = "YÜKLENİYOR",
         B4 = {
-            JOINED_COUNT: "{count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "1 player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
+            JOINED_COUNT: "{count} / {maxPlayers} oyuncular katıldı",
+            PLAYERS_NEEDED: "Başlamak için {count} kişi daha gerekiyor | Başlamak için {count} kişi daha gerekiyor",
+            WAITING_FOR_VIP: "Oyunun başlaması için {name} bekleniyor",
+            WAITING_FOR_GAMEPAD: "Oyunun başlaması bekleniyor",
             GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            BUTTON_START: "Başlatmak için basın",
+            BUTTON_CANCEL: "Başlatmayı iptal et"
         },
         G4 = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Galeriyi Ziyaret Edin",
+            PLAY_AGAIN: "Yeniden Oyna?",
+            BUTTON_SAME_PLAYERS: "Aynı Oyuncular",
+            BUTTON_NEW_PLAYERS: "Yeni Oyuncular"
         },
         F4 = {
-            AND: "AND",
-            OR: "OR"
+            AND: "VE",
+            OR: "YA DA"
         },
         H4 = {
             BUTTON_SKIP: "Atla",
@@ -20778,52 +20778,52 @@ var Qae = JM((Boe, _1) => {
             NAME: "SEYİRCİ"
         },
         j4 = {
-            EPISODE_REPORT: "Report Episode",
-            EPISODE_UNLOAD: "Unload Episode",
-            EPISODE_VIEW_AUTHOR: "View Author",
-            EPISODES_LOAD: "Load an episode by id:",
-            EPISODES_MENU: "Episodes Menu",
-            EPISODES_SELECT: "Or select an epsiode:",
-            EPISODES_WARNING: "Warning: user generated content is not rated",
+            EPISODE_REPORT: "Bölümü Bildir",
+            EPISODE_UNLOAD: "Bölümü Çıkar",
+            EPISODE_VIEW_AUTHOR: "Yazarı Görüntüle",
+            EPISODES_LOAD: "Bir bölümü kimliğiyle yükleyin:",
+            EPISODES_MENU: "Bölüm menüsü",
+            EPISODES_SELECT: "Ya da bir bölüm seçin:",
+            EPISODES_WARNING: "Uyarı: kullanıcıdan oluşturulmuş içerikler derecelendirilmedi",
             INSTRUCTION: {
-                CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                LOAD: "create or load?",
-                PUBLISH: "publish your episode",
-                TITLE: "name your episode",
-                TOGGLE_VISIBILITY: "tap to show/hide prompts",
-                WRITE: "write your prompts"
+                CREATE_TITLE: "ilk olarak, bütün istemleri içerecek bölüme bir isim verin ve oluştur düğmesine basın.",
+                LOAD: "oluştur ya da yükle?",
+                PUBLISH: "bölümünüzü yayınlayın",
+                TITLE: "bölümünüze isim verin",
+                TOGGLE_VISIBILITY: "istemleri göstermek/gizlemek için dokunun",
+                WRITE: "istemlerinizi yazın"
             },
             WARNING: {
-                DELETE: "Are you sure you want to delete this episode?",
-                TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
-                TOS_AGREE: "agree and share"
+                DELETE: "Bu bölümü silmek istediğinizden emin misiniz?",
+                TOS: "İçerik paylaşarak, [tos]Hizmet Şartlarını[/tos] kabul edersiniz.",
+                TOS_AGREE: "kabul et ve paylaş"
             },
-            BACK_TO_EPISODES: "back to episodes",
-            BACK_TO_MENU: "back to menu",
-            CREATE_NEW_EPISODE: "create a new episode",
-            PREVIOUS_EPISODES: "previous episodes",
-            PROMPT_ADD: "add prompt",
-            PROMPT_PLACEHOLDER: "enter a prompt",
-            PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-            TITLE_PLACEHOLDER: "enter a title"
+            BACK_TO_EPISODES: "bölümlere dön",
+            BACK_TO_MENU: "menüye dön",
+            CREATE_NEW_EPISODE: "yeni bölüm oluştur",
+            PREVIOUS_EPISODES: "geçmiş bölümler",
+            PROMPT_ADD: "istem ekle",
+            PROMPT_PLACEHOLDER: "bir istem girin",
+            PROMPTS_COUNT_HIDDEN: "({count} gizli)",
+            TITLE_PLACEHOLDER: "bir başlık girin"
         },
         z4 = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Hesabınızı başarıyla Jackbox Audience Kit Twitch Eklentisine bağladınız.",
+                WARNING: "BU ODANIN SEYİRCİ AYARI AÇIK DEĞİL"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "YENİDEN BAĞLANILDI",
+                SUBTEXT: "İyi Eğlenceler!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "BAĞLANTI SARSILDI",
+                    SUBTEXT: "Yeniden Bağlanılıyor... (Deneme {attempt} / 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "OYUN BAĞLANTISI SARSILDI",
+                    SUBTEXT: "Oyun ekranını yeniden bağlarken lütfen bekleyin..."
                 }
             },
             PAUSED: {
