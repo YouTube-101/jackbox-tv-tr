@@ -19093,13 +19093,13 @@ ${r.message}`,
         },
         tj = "YÜKLENİYOR",
         rj = {
-            JOINED_COUNT: "{count} / {maxPlayers} oyuncular katıldı",
-            PLAYERS_NEEDED: "Başlamak için {count} kişi daha gerekiyor | Başlamak için {count} kişi daha gerekiyor",
-            WAITING_FOR_VIP: "Oyunun başlaması için {name} bekleniyor",
-            WAITING_FOR_GAMEPAD: "Oyunun başlaması bekleniyor",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Başlatmak için basın",
-            BUTTON_CANCEL: "Başlatmayı iptal et"
+            JOINED_COUNT: "{count} / {maxPlayers} OYUNCULAR KATILDI",
+            PLAYERS_NEEDED: "BAŞLAMAK İÇİN {count} KİŞİ DAHA GEREKİYOR | BAŞLAMAK İÇİN {count} KİŞİ DAHA GEREKİYOR",
+            WAITING_FOR_VIP: "OYUNUN BAŞLAMASI İÇİN {name} BEKLENİYOR",
+            WAITING_FOR_GAMEPAD: "OYUNUN BAŞLAMASI BEKLENİYOR",
+            GAME_STARTING: "OYUN BAŞLIYOR",
+            BUTTON_START: "BAŞLATMAK İÇİN BASIN",
+            BUTTON_CANCEL: "BAŞLATMAYI İPTAL ET"
         },
         nj = {
             GALLERY_LINK: "Galeriyi Ziyaret Edin",
@@ -34365,25 +34365,25 @@ ${e}`
                 handwritten: "Use cursive font"
             }
         },
-        vce = "Suggestions",
+        vce = "ÖNERİLER",
         yce = {
-            TITLE: "Game Tip",
+            TITLE: "OYUN İPUCUSU",
             CONTENT: ["The “Quick Draw” setting requires only 2 drawings in Round One.", "Want to make big changes to a drawing? Use the eraser in the drawing interface.", "The highlighter makes big sections of color. The pen creates thinner lines that are always visible over the highlighter.", "Tiebreaks are often given to a specific garment. Keep switching it up with t-shirts, hoodies and tank tops!", "Take a moment to find the perfect font. A slogan that’s “meh” in bold could be a knockout in script!", "Make sure to choose the perfect canvas color to showcase your drawing! (Hint: it’s always pink.)", "Want to play as the dragon? You can’t. But wouldn’t that be cool?", "Fingers need a break during the Final Round? Press and hold your choice to keep sending a high number of votes.", "Have regrets about a drawing from Round One? Go back and change it in Round Two!", "“Drawing Text Descriptions” in Settings asks players to add descriptive text to their own drawings."]
         },
         _ce = {
             INSTRUCTION: {
-                AVATAR: "Choose your avatar",
-                CRY: "Write your Battle Cry"
+                AVATAR: "AVATARINI SEÇ",
+                CRY: "SAVAŞMA ÇIĞLIĞINI YAZ"
             },
-            PLACEHOLDER: "Something I would yell when victorious!"
+            PLACEHOLDER: "Başarılı olunca bağıracağım bir şey!"
         },
         bce = {
-            INSTRUCTION: "Craft your shirt!"
+            INSTRUCTION: "ŞÖRTÜNÜ OLUŞTUR!"
         },
         Ece = {
             COUNTER: {
-                TYPE: "Drawing",
-                COUNT: "{current} of {total}"
+                TYPE: "ÇİZİM",
+                COUNT: "{current} / {total}"
             }
         },
         wce = {
@@ -34398,18 +34398,18 @@ ${e}`
         },
         Tce = {
             ACTION: {
-                CHANGE_DRAWING: "Change this drawing",
-                NEW_DRAWING: "New drawing"
+                CHANGE_DRAWING: "BU ÇİZİMİ DEĞİŞTİR",
+                NEW_DRAWING: "YENİ ÇİZİM"
             },
-            INSTRUCTION: "Change an existing drawing, or start a new drawing"
+            INSTRUCTION: "VAR OLAN BİR ÇİZİMİ DEĞİŞTİR YA DA YENİ BİR ŞEY ÇİZ"
         },
         Oce = {
-            MASH: "Keep tapping your favorite!",
-            INSTRUCTION: "Pick your favorite!",
-            THANKS: "Your choice"
+            MASH: "FAVORİNE DEVAMLI BAS!",
+            INSTRUCTION: "FAVORİNİ SEÇ!",
+            THANKS: "SEÇİMİN"
         },
         Ice = {
-            INSTRUCTION: "Write something funny, or clever, or anything"
+            INSTRUCTION: "KOMİK VEYA AKILLICA VEYA HERHANGİ BİR ŞEYLER YAZ"
         },
         Cce = {
             ALT: gce,
@@ -35433,7 +35433,7 @@ ${e}`
         Ffe = ["alt"],
         Gfe = y2(() => z("p", {
             class: "section-header"
-        }, "Winning Design", -1)),
+        }, "KAZANAN TASARIM", -1)),
         qfe = {
             class: "shareable"
         },
@@ -35452,7 +35452,7 @@ ${e}`
         Hfe = ["disabled"],
         Vfe = y2(() => z("p", {
             class: "section-header"
-        }, "Runner Up", -1)),
+        }, "İKİNCİ KIYAFET", -1)),
         Yfe = {
             class: "shareable"
         },
@@ -35474,7 +35474,7 @@ ${e}`
         },
         ede = y2(() => z("p", {
             class: "section-header"
-        }, "More Designs", -1)),
+        }, "DAHA FAZLA TASARIMLAR", -1)),
         tde = ["disabled", "onClick"];
 
     function rde(t, e, r, n, i, s) {
@@ -35493,7 +35493,7 @@ ${e}`
         }, null, 8, ["artifact", "params"]), t.shirts.winner.artist ? (X(), se("p", jfe, "artist: " + ke(t.shirts.winner.artist), 1)) : Ne("", !0), t.shirts.winner.writer ? (X(), se("p", zfe, "writer: " + ke(t.shirts.winner.writer), 1)) : Ne("", !0), t.shirts.winner.designer ? (X(), se("p", Wfe, "designer: " + ke(t.shirts.winner.designer), 1)) : Ne("", !0), z("button", {
             disabled: t.isFetching,
             onClick: e[0] || (e[0] = c => t.onBuyClick(t.shirts.winner))
-        }, "BUY", 8, Hfe)])]), z("section", null, [Vfe, z("div", Yfe, [De(o, {
+        }, "SATIN AL", 8, Hfe)])]), z("section", null, [Vfe, z("div", Yfe, [De(o, {
             alt: "",
             artifact: t.artifact,
             params: {
