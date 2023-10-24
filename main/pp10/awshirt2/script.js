@@ -35490,7 +35490,7 @@ ${e}`
                 apparelIndex: `${t.shirts.winner.id}`
             },
             renderer: "share"
-        }, null, 8, ["artifact", "params"]), t.shirts.winner.artist ? (X(), se("p", jfe, "artist: " + ke(t.shirts.winner.artist), 1)) : Ne("", !0), t.shirts.winner.writer ? (X(), se("p", zfe, "writer: " + ke(t.shirts.winner.writer), 1)) : Ne("", !0), t.shirts.winner.designer ? (X(), se("p", Wfe, "designer: " + ke(t.shirts.winner.designer), 1)) : Ne("", !0), z("button", {
+        }, null, 8, ["artifact", "params"]), t.shirts.winner.artist ? (X(), se("p", jfe, "SANATÇI: " + ke(t.shirts.winner.artist), 1)) : Ne("", !0), t.shirts.winner.writer ? (X(), se("p", zfe, "YAZAR: " + ke(t.shirts.winner.writer), 1)) : Ne("", !0), t.shirts.winner.designer ? (X(), se("p", Wfe, "OLUŞTURAN: " + ke(t.shirts.winner.designer), 1)) : Ne("", !0), z("button", {
             disabled: t.isFetching,
             onClick: e[0] || (e[0] = c => t.onBuyClick(t.shirts.winner))
         }, "SATIN AL", 8, Hfe)])]), z("section", null, [Vfe, z("div", Yfe, [De(o, {
@@ -35500,7 +35500,7 @@ ${e}`
                 apparelIndex: `${t.shirts.runnerUp.id}`
             },
             renderer: "share"
-        }, null, 8, ["artifact", "params"]), t.shirts.runnerUp.artist ? (X(), se("p", Kfe, "artist: " + ke(t.shirts.runnerUp.artist), 1)) : Ne("", !0), t.shirts.runnerUp.writer ? (X(), se("p", Xfe, "writer: " + ke(t.shirts.runnerUp.writer), 1)) : Ne("", !0), t.shirts.runnerUp.designer ? (X(), se("p", Jfe, "designer: " + ke(t.shirts.runnerUp.designer), 1)) : Ne("", !0), z("button", {
+        }, null, 8, ["artifact", "params"]), t.shirts.runnerUp.artist ? (X(), se("p", Kfe, "SANATÇI: " + ke(t.shirts.runnerUp.artist), 1)) : Ne("", !0), t.shirts.runnerUp.writer ? (X(), se("p", Xfe, "YAZAR: " + ke(t.shirts.runnerUp.writer), 1)) : Ne("", !0), t.shirts.runnerUp.designer ? (X(), se("p", Jfe, "OLUŞTURAN: " + ke(t.shirts.runnerUp.designer), 1)) : Ne("", !0), z("button", {
             disabled: t.isFetching,
             onClick: e[1] || (e[1] = c => t.onBuyClick(t.shirts.runnerUp))
         }, "BUY", 8, Zfe)])]), z("section", Qfe, [ede, (X(!0), se(He, null, ir(t.shirts.other, (c, u) => (X(), se("div", {
