@@ -27826,7 +27826,7 @@ ${e}`
         Bge = {
             GET_READY: "Hazır Ol",
             TAP: "BAS",
-            TAP_ALONG: "ve basmaya devam et",
+            TAP_ALONG: "ve ritime göre düğmeye bas",
             TAP_HERE: "BASMA[break][/break]YERİ[info](YA DA BOŞLUĞA BAS)[/info]",
             SYNCED: "SENKRONİZE EDİLDİ",
             SYNCING: "Senkronize Ediliyor",
