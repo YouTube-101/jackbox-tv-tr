@@ -20755,7 +20755,7 @@ var Qae = JM((Boe, _1) => {
             PLAYERS_NEEDED: "Başlamak için {count} kişi daha gerekiyor | Başlamak için {count} kişi daha gerekiyor",
             WAITING_FOR_VIP: "Oyunun başlaması için {name} bekleniyor",
             WAITING_FOR_GAMEPAD: "Oyunun başlaması bekleniyor",
-            GAME_STARTING: "Game is starting",
+            GAME_STARTING: "Oyun Başlıyor",
             BUTTON_START: "Başlatmak için basın",
             BUTTON_CANCEL: "Başlatmayı iptal et"
         },

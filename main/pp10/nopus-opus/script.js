@@ -12843,25 +12843,25 @@ ${n.message}`,
     be(El, "isPolyfilled", !1);
     let P0 = El;
     const $X = {
-            BACK: "Back",
-            CANCEL: "Cancel",
-            CLOSE: "Close",
-            CONFIRM: "Confirm",
-            CREATE: "Create",
-            DELETE: "Delete",
-            DONE: "Done",
-            EDIT: "Edit",
-            OK: "OK",
-            NEXT: "Next",
-            NO: "No",
-            PLAY: "Play",
-            PUBLISH: "Publish",
-            REMOVE: "Remove",
-            RESET: "Reset",
-            SUBMIT: "Submit",
-            TRY_AGAIN: "Try Again",
-            UNDO: "Undo",
-            YES: "Yes"
+        BACK: "Geri",
+        CANCEL: "İptal",
+        CLOSE: "Kapat",
+        CONFIRM: "Onayla",
+        CREATE: "Oluştur",
+        DELETE: "Sil",
+        DONE: "Bitti",
+        EDIT: "Düzenle",
+        OK: "OK",
+        NEXT: "Sonraki",
+        NO: "Hayır",
+        PLAY: "Oyna",
+        PUBLISH: "Yayınla",
+        REMOVE: "Kaldır",
+        RESET: "Sıfırla",
+        SUBMIT: "Gönder",
+        TRY_AGAIN: "Yeniden Dene",
+        UNDO: "Geri Al",
+        YES: "Evet"
         },
         LX = {
             UGC: {
@@ -12872,100 +12872,100 @@ ${n.message}`,
             }
         },
         FX = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I’m afraid you can’t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can’t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "Bağlantınız Kesildi.",
+            DRAWING_NOTHING: "Bir şey çizmeniz gerek!",
+            PLAYER_KICKED: "Bu oyundan bir moderatör sizi attı.",
+            ROOM_DESTROYED: "Oynadığınız için teşekkürler!",
+            ROOM_DISCONNECTED: "BAĞLANTI KESİLDİ",
+            TEXT_NAUGHTY: "Üzgünüz ama bunu yazamazsınız. Diğer oyunculara karşı saygılı olun.",
+            TEXT_NOTHING: "You can\u2019t enter nothing!",
+            TITLE: "HATA"
         },
         UX = "LOADING",
         BX = {
-            JOINED_COUNT: "{count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "1 player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "{count} / {maxPlayers} oyuncular katıldı",
+            PLAYERS_NEEDED: "Başlamak için {count} kişi daha gerekiyor | Başlamak için {count} kişi daha gerekiyor",
+            WAITING_FOR_VIP: "Oyunun başlaması için {name} bekleniyor",
+            WAITING_FOR_GAMEPAD: "Oyunun başlaması bekleniyor",
+            GAME_STARTING: "Oyun Başlıyor",
+            BUTTON_START: "Başlatmak için basın",
+            BUTTON_CANCEL: "Başlatmayı iptal et"
         },
         qX = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Galeriyi Ziyaret Edin",
+            PLAY_AGAIN: "Yeniden Oyna?",
+            BUTTON_SAME_PLAYERS: "Aynı Oyuncular",
+            BUTTON_NEW_PLAYERS: "Yeni Oyuncular"
         },
         VX = {
-            AND: "AND",
-            OR: "OR"
+            AND: "VE",
+            OR: "YA DA"
         },
         GX = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let’s Go!"
+            BUTTON_SKIP: "Atla",
+            BUTTON_NEXT: "Sıradaki",
+            BUTTON_DONE: "Hadi!"
         },
         jX = {
-            NAME: "AUDIENCE"
+            NAME: "SEYİRCİ"
         },
         WX = {
-            EPISODE_REPORT: "Report Episode",
-            EPISODE_UNLOAD: "Unload Episode",
-            EPISODE_VIEW_AUTHOR: "View Author",
-            EPISODES_LOAD: "Load an episode by id:",
-            EPISODES_MENU: "Episodes Menu",
-            EPISODES_SELECT: "Or select an epsiode:",
-            EPISODES_WARNING: "Warning: user generated content is not rated",
+            EPISODE_REPORT: "Bölümü Bildir",
+            EPISODE_UNLOAD: "Bölümü Çıkar",
+            EPISODE_VIEW_AUTHOR: "Yazarı Görüntüle",
+            EPISODES_LOAD: "Bir bölümü kimliğiyle yükleyin:",
+            EPISODES_MENU: "Bölüm menüsü",
+            EPISODES_SELECT: "Ya da bir bölüm seçin:",
+            EPISODES_WARNING: "Uyarı: kullanıcıdan oluşturulmuş içerikler derecelendirilmedi",
             INSTRUCTION: {
-                CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                LOAD: "create or load?",
-                PUBLISH: "publish your episode",
-                TITLE: "name your episode",
-                TOGGLE_VISIBILITY: "tap to show/hide prompts",
-                WRITE: "write your prompts"
+                CREATE_TITLE: "ilk olarak, bütün istemleri içerecek bölüme bir isim verin ve oluştur düğmesine basın.",
+                LOAD: "oluştur ya da yükle?",
+                PUBLISH: "bölümünüzü yayınlayın",
+                TITLE: "bölümünüze isim verin",
+                TOGGLE_VISIBILITY: "istemleri göstermek/gizlemek için dokunun",
+                WRITE: "istemlerinizi yazın"
             },
             WARNING: {
-                DELETE: "Are you sure you want to delete this episode?",
-                TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
-                TOS_AGREE: "agree and share"
+                DELETE: "Bu bölümü silmek istediğinizden emin misiniz?",
+                TOS: "İçerik paylaşarak, [tos]Hizmet Şartlarını[/tos] kabul edersiniz.",
+                TOS_AGREE: "kabul et ve paylaş"
             },
-            BACK_TO_EPISODES: "back to episodes",
-            BACK_TO_MENU: "back to menu",
-            CREATE_NEW_EPISODE: "create a new episode",
-            PREVIOUS_EPISODES: "previous episodes",
-            PROMPT_ADD: "add prompt",
-            PROMPT_PLACEHOLDER: "enter a prompt",
-            PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-            TITLE_PLACEHOLDER: "enter a title"
+            BACK_TO_EPISODES: "bölümlere dön",
+            BACK_TO_MENU: "menüye dön",
+            CREATE_NEW_EPISODE: "yeni bölüm oluştur",
+            PREVIOUS_EPISODES: "geçmiş bölümler",
+            PROMPT_ADD: "istem ekle",
+            PROMPT_PLACEHOLDER: "bir istem girin",
+            PROMPTS_COUNT_HIDDEN: "({count} gizli)",
+            TITLE_PLACEHOLDER: "bir başlık girin"
         },
         HX = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Hesabınızı başarıyla Jackbox Audience Kit Twitch Eklentisine bağladınız.",
+                WARNING: "BU ODANIN SEYİRCİ AYARI AÇIK DEĞİL"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "YENİDEN BAĞLANILDI",
+                SUBTEXT: "İyi Eğlenceler!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "BAĞLANTI SARSILDI",
+                    SUBTEXT: "Yeniden Bağlanılıyor... (Deneme {attempt} / 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "OYUN BAĞLANTISI SARSILDI",
+                    SUBTEXT: "Oyun ekranını yeniden bağlarken lütfen bekleyin..."
                 }
             },
             PAUSED: {
-                TEXT: "THE GAME IS PAUSED",
-                SUBTEXT: "Anything you submit will still be sent to the game."
+                TEXT: "OYUN DURDURULDU",
+                SUBTEXT: "Gönderdiğin her şey hâlâ oyuna gönderilecek."
             }
         },
         YX = {
-            SHARE: "Share",
-            COPY_TO_CLIPBOARD: "Copy to clipboard"
+            SHARE: "Paylaş",
+            COPY_TO_CLIPBOARD: "Panoya Kopyala"
         },
         zX = {
             ACTION: $X,
@@ -27824,92 +27824,92 @@ ${e}`
             SIGNATURE: "Signature"
         },
         Bge = {
-            GET_READY: "Get Ready",
-            TAP: "tap",
-            TAP_ALONG: "and then tap along",
-            TAP_HERE: "TAP[break][/break]ZONE[info](OR PRESS SPACEBAR)[/info]",
-            SYNCED: "synced",
-            SYNCING: "Syncing",
-            WAIT: "Wait for the count down"
+            GET_READY: "Hazır Ol",
+            TAP: "BAS",
+            TAP_ALONG: "ve basmaya devam et",
+            TAP_HERE: "BASMA[break][/break]YERİ[info](YA DA BOŞLUĞA BAS)[/info]",
+            SYNCED: "SENKRONİZE EDİLDİ",
+            SYNCING: "Senkronize Ediliyor",
+            WAIT: "Geri sayımı bekle"
         },
         qge = {
             SHARE: "Share",
-            SILENT_PHONE: "Don't forget to put your phone back on silent!"
+            SILENT_PHONE: "Telefonunu sessize almayı unutma!"
         },
         Vge = {
-            VERY_EASY: "Super Easy",
-            EASY: "Easy",
-            MEDIUM: "Medium",
-            HARD: "Hard",
-            VERY_HARD: "Super Hard"
+            VERY_EASY: "Süper Kolay",
+            EASY: "Kolay",
+            MEDIUM: "Orta",
+            HARD: "Zor",
+            VERY_HARD: "Süper Zor"
         },
         Gge = {
-            DOWNLOAD: "DOWNLOAD MP3"
+            DOWNLOAD: "MP3 İNDİR"
         },
         jge = {
-            CONTINUOUS: "Tap and hold notes when they enter the zone below",
-            DISCRETE: "Tap notes when they fill the circles below",
-            PAUSED: "Game Paused",
-            IN_PROGRESS: "Song In Progress",
-            PROCESSING: "The birds are preparing to play back your performance"
+            CONTINUOUS: "Notalar, aşağıdaki alana girdiği zaman onlara basın ve basılı tutun",
+            DISCRETE: "Notalar, aşağıdaki yuvarlakları doldurunca onlara basın",
+            PAUSED: "Oyun Durduruldu",
+            IN_PROGRESS: "Şarkı Çalınıyor",
+            PROCESSING: "Kuşlar performansını çalmak için hazırlanıyor"
         },
         Wge = {
-            BACK_TO_MENU: "Back to Game Menu",
-            BEST_SCORE: "Best Score",
-            CANCEL: "Cancel",
-            CHANGE_HOST: "Change[break][/break]Host?",
-            CHOOSE_HOST: "Choose New Host",
-            CHOOSE_INSTRUMENT: "Choose an Instrument",
-            CHOOSE_SONG: "Choose a Song",
-            COMPLETED_PARTS: "Parts Survived",
-            CUSTOMIZE: "Customize?",
-            DIFFICULTY: "Difficulty",
-            END_SESSION: "End Session",
-            LANES: "Lanes",
-            LOADING: "Loading",
-            LOCKED: "Locked",
-            NEVERMIND: "Nevermind",
-            NEW_SONG: "New Song",
-            RETRY_SONG: "Retry Song",
-            RESET: "Reset",
-            SELECT_SONG: "Select Song",
-            SONG_PART: "Song Part",
-            SPACEBAR: "SPACE",
-            START_SONG: "Play Song",
-            TEST_IT: "Test It Out",
-            THANKS: "Thanks for playing",
-            UNLOCKED: "Unlocked Instruments",
-            VOTE_SONG: "Vote for a Song",
-            WAITING_FOR: "Waiting for {vipName}",
-            WAITING_FOR_SONG: "Waiting for {vipName} to select song",
-            WHAT_NEXT: "What's Next?"
+            BACK_TO_MENU: "Oyun Menüsüne Dön",
+            BEST_SCORE: "En İyi Puan",
+            CANCEL: "İptal",
+            CHANGE_HOST: "Sunucu[break][/break]Değiştir?",
+            CHOOSE_HOST: "Yeni Sunucu Seç",
+            CHOOSE_INSTRUMENT: "Bir Enstrüman Seç",
+            CHOOSE_SONG: "Bir Şarkı Seç",
+            COMPLETED_PARTS: "Hayatta Kalınmış Enstrümanlar",
+            CUSTOMIZE: "DEĞİŞTİR?",
+            DIFFICULTY: "Zorluk",
+            END_SESSION: "Seansı Bitir",
+            LANES: "Çizgiler",
+            LOADING: "Yükleniyor",
+            LOCKED: "Kilitli",
+            NEVERMIND: "Hayır, Teşekkürler",
+            NEW_SONG: "Yeni Şarkı",
+            RETRY_SONG: "Yeniden Çal",
+            RESET: "SIFIRLA",
+            SELECT_SONG: "Şarkıyı Seç",
+            SONG_PART: "Şarkı Enstrümanı",
+            SPACEBAR: "BOŞLUK",
+            START_SONG: "Şarkıyı Başlat",
+            TEST_IT: "Enstrümanını Dene",
+            THANKS: "Oynadığın için teşekkürler",
+            UNLOCKED: "Kilidi açılmış enstrümanlar",
+            VOTE_SONG: "Bir şarkı için oy ver",
+            WAITING_FOR: "{vipName} için bekleniyor",
+            WAITING_FOR_SONG: "Şarkıyı seçmesi için {vipName} bekleniyor",
+            WHAT_NEXT: "Sırada ne var?"
         },
         Hge = {
-            SIT_BACK: "Sit back and enjoy",
-            LOOK_UP: "Performance on the main screen"
+            SIT_BACK: "Otur ve keyfini çıkar",
+            LOOK_UP: "Ana ekranda performansın çalıyor"
         },
         Yge = {
-            PERFECT: "Perfect",
-            GREAT: "Great",
-            OKAY: "Okay",
-            MISS: "Miss"
+            PERFECT: "MÜKEMMEL",
+            GREAT: "GÜZEL",
+            OKAY: "PEKİ",
+            MISS: "KAÇTI"
         },
         zge = {
-            AUDIENCE: "Audience",
-            SURVIVED: "Survived",
-            EATEN: "Eaten"
+            AUDIENCE: "Seyirci",
+            SURVIVED: "Sağ Kalındı",
+            EATEN: "Yenilgi"
         },
         Kge = {
-            AUDIO_CHECK: "Audio Check",
-            CHECK_SETTINGS: "Check these settings on your device",
-            CONFIRM: "Sounds good",
-            NOT_HEARING: "Not hearing anything?",
-            OFF: "OFF",
-            POWER_SAVER: "Power Saver Mode",
-            SILENT: "Silent Mode",
-            TEST: "Play test audio",
-            UP: "UP",
-            VOLUME: "Volume"
+            AUDIO_CHECK: "Ses Kontrolü",
+            CHECK_SETTINGS: "Cihazında olan bu ayarları kontrol et",
+            CONFIRM: "İyi duyuluyor",
+            NOT_HEARING: "Hiçbir şey duymuyor musun?",
+            OFF: "KAPAT",
+            POWER_SAVER: "Düşük Güç Modunu",
+            SILENT: "Sessiz Modunu",
+            TEST: "Deneme sesi çal",
+            UP: "AÇ",
+            VOLUME: "Sesi"
         },
         Zge = {
             ALT: Lge,
