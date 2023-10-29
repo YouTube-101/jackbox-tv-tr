@@ -14907,6 +14907,20 @@ var Qae = JM((Boe, _1) => {
             features: ["moderation", "kicking"],
             categoryId: "StrangersGame",
             galleryId: "hypnotorious"
+        }, {
+            name: "Karanlıkta Sahtekarlık",
+            tag: "fakinit2",
+            wrapper: "vue",
+            isPublic: !1,
+            directory: "ppad/fakinit2",
+            features: ["moderation", "kicking"]
+        }, {
+            name: "Karanlıkta Drawful",
+            tag: "drawful3",
+            wrapper: "vue",
+            isPublic: !1,
+            directory: "ppad/drawful3",
+            features: ["moderation", "kicking"]
         }],
         Wl = t => NG.find(e => e.tag === t || e.galleryId === t || e.categoryId === t);
 
@@ -34023,4 +34037,4 @@ function LowerCaseTR(a) {
     a = a.toLowerCase();
     return a;
 }
-//# sourceMappingURL=2d6415a3.js.map
+//# sourceMappingURL=feaffd96.js.map
