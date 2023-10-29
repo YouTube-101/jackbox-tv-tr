@@ -15378,8 +15378,8 @@ var coe = UP((zoe, sR) => {
             }
         },
         v4 = {
-            SHARE: "Paylaş",
-            COPY_TO_CLIPBOARD: "Panoya Kopyala"
+            SHARE: "Share",
+            COPY_TO_CLIPBOARD: "Copy to clipboard"
         },
         E4 = {
             ACTION: a4,
@@ -16327,7 +16327,7 @@ from your past games list.`,
             WAITING: "En attente de la salle"
         },
         ZK = {
-            ACCEPT_ALL: "Compris !",
+            ACCEPT_ALL: "Compris !",
             CONSENT_MODAL: {
                 ARIA: "Formulaire d'acceptation des cookies"
             },
@@ -16412,8 +16412,8 @@ de votre liste d'anciennes parties.`,
             TWITCH_LOGIN: "SE CONNECTER AVEC TWITCH"
         },
         u6 = {
-            CAMERA: "[b]ATTENTION :[/b] Nous ne détectons aucune caméra, mais vous pouvez jouer sans afficher votre photo. Si vous pensez qu'il s'agit d'une erreur, essayez de rejoindre en utilisant un autre navigateur.",
-            STYLE: "[b]ATTENTION :[/b] Votre navigateur semble obsolète. Vous risquez de rencontrer des problèmes d'affichage avec ce jeu.",
+            CAMERA: "[b]ATTENTION :[/b] Nous ne détectons aucune caméra, mais vous pouvez jouer sans afficher votre photo. Si vous pensez qu'il s'agit d'une erreur, essayez de rejoindre en utilisant un autre navigateur.",
+            STYLE: "[b]ATTENTION :[/b] Votre navigateur semble obsolète. Vous risquez de rencontrer des problèmes d'affichage avec ce jeu.",
             TOS: "En cliquant sur {submit}, vous acceptez nos [tos]Conditions de service[/tos]."
         },
         l6 = {
@@ -26669,14 +26669,14 @@ ${t}`
             PASSWORD: "MOT DE PASSE"
         },
         Une = {
-            KICK: "Éjecter ?",
+            KICK: "Éjecter ?",
             KICK_PLAYERS: "ÉJECTER DES JOUEURS",
             MODERATE: "Modéré",
             APPROVE_ALL: "Tout accepter",
             REJECT_ALL: "Tout refuser"
         },
         Fne = {
-            ROOM_DESTROYED: "Merci pour votre aide !"
+            ROOM_DESTROYED: "Merci pour votre aide !"
         },
         Bne = {
             DISABLED: "Modération désactivée",
@@ -26688,7 +26688,7 @@ ${t}`
             DISABLED: "Le paramètre de modération est désactivé pour ce jeu. Activez-le et relancez le jeu pour modérer le contenu.",
             UNSUPPORTED: "Il n'y a rien à modérer dans {gameName}, mais merci d'avoir voulu aider !"
         },
-        Wne = "Envoyé par :",
+        Wne = "Envoyé par :",
         jne = {
             FORM: kne,
             ACTION: Une,

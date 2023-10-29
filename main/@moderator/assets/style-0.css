@@ -553,6 +553,7 @@
         transform: #FFF
     }
 }
+
 .handle[data-v-1904b9ea] {
     fill: #f7f8f9
 }
@@ -955,6 +956,7 @@ path[data-v-95ca8319] {
 .topbar button[data-v-f31cb476]:active {
     transform: scale(.95)
 }
+
 #cc-main {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -5827,7 +5829,7 @@ button.kick-toggle:disabled .icon[data-v-23c5a82b] .boot {
     border-color: var(--inputPrimary)
 }
 
-.jbg.schemable.theme-dark[data-v-c99ec5a4] {
+.jbg.schemable.theme-dark[data-v-e1399247] {
     --accent: #4254F4;
     --alert: #ce4949;
     --shadows: rgb(4, 9, 14, .5);
@@ -5842,7 +5844,7 @@ button.kick-toggle:disabled .icon[data-v-23c5a82b] .boot {
 }
 
 @media (prefers-color-scheme: dark) {
-    .jbg.schemable.theme-dark[data-v-e1399247] {
+    .jbg.schemable.theme-device[data-v-e1399247] {
         --accent: #4254F4;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
@@ -6108,7 +6110,7 @@ button.kick-toggle:disabled .icon[data-v-23c5a82b] .boot {
 }
 
 @media (prefers-color-scheme: dark) {
-    .jbg.schemable.theme-device[data-v-94e19c5f] {
+    .jbg.schemable.theme-device[data-v-77738b81] {
         --accent: #4254F4;
         --alert: #ce4949;
         --shadows: rgb(4, 9, 14, .5);
