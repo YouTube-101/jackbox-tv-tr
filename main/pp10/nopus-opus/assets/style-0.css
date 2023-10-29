@@ -7203,7 +7203,6 @@ text[data-v-fcc722b8] {
 
 .notes p[data-v-eb34fc55] {
     display: inline-block;
-    width: 25%;
     font-size: clamp(19.2px, 6vw, 27px)
 }
 
@@ -7213,19 +7212,24 @@ text[data-v-fcc722b8] {
 }
 
 .notes .perfect[data-v-eb34fc55] {
-    color: #ffcd00
+    color: #ffcd00;
+    text-align: center;
+    width: 35%;
 }
 
 .notes .great[data-v-eb34fc55] {
-    color: #b16b00
+    color: #b16b00;
+    width: 22%;
 }
 
 .notes .okay[data-v-eb34fc55] {
-    color: #643d00
+    color: #643d00;
+    width: 19%;
 }
 
 .notes .miss[data-v-eb34fc55] {
-    color: #555
+    color: #555;
+    width: 22%;
 }
 
 @media (max-height: 650px) {
