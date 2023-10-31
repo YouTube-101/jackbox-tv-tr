@@ -85,26 +85,6 @@
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-V1QJVQMYF1"></script>
 
     <script>
-        let a = window.location.pathname.substr(1);
-        a = a.replaceAll("i", "İ");
-        a = a.replaceAll("ı", "I");
-        a = a.toUpperCase();
-        a = a.replaceAll("İ", "I");
-        let valids = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-        let ia = a.split("");
-        let oa = "";
-        for (let i = 0; i < ia.length; i++) {
-            if (valids.includes(ia[i])) {
-                oa += ia[i];
-            }
-        }
-        r = oa;
-        if (r.length == 4) {
-            localStorage.setItem("tv:code", r);
-        }
-    </script>
-    
-    <script>
         window.dataLayer = window.dataLayer || []
 
         function gtag() {
