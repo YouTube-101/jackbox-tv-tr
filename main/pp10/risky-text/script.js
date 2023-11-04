@@ -13240,25 +13240,25 @@ ${r.message}`,
         }
     }
     const D7 = {
-            BACK: "Back",
-            CANCEL: "Cancel",
-            CLOSE: "Close",
-            CONFIRM: "Confirm",
-            CREATE: "Create",
-            DELETE: "Delete",
-            DONE: "Done",
-            EDIT: "Edit",
+            BACK: "Geri",
+            CANCEL: "İptal",
+            CLOSE: "Kapat",
+            CONFIRM: "Onayla",
+            CREATE: "Oluştur",
+            DELETE: "Sil",
+            DONE: "Bitti",
+            EDIT: "Düzenle",
             OK: "OK",
-            NEXT: "Next",
-            NO: "No",
-            PLAY: "Play",
-            PUBLISH: "Publish",
-            REMOVE: "Remove",
-            RESET: "Reset",
-            SUBMIT: "Submit",
-            TRY_AGAIN: "Try Again",
-            UNDO: "Undo",
-            YES: "Yes"
+            NEXT: "Sonraki",
+            NO: "Hayır",
+            PLAY: "Oyna",
+            PUBLISH: "Yayınla",
+            REMOVE: "Kaldır",
+            RESET: "Sıfırla",
+            SUBMIT: "Gönder",
+            TRY_AGAIN: "Yeniden Dene",
+            UNDO: "Geri Al",
+            YES: "Evet"
         },
         M7 = {
             UGC: {
@@ -13269,100 +13269,100 @@ ${r.message}`,
             }
         },
         U7 = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I’m afraid you can’t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can’t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "Bağlantınız Kesildi.",
+            DRAWING_NOTHING: "Bir şey çizmeniz gerek!",
+            PLAYER_KICKED: "Bu oyundan bir moderatör sizi attı.",
+            ROOM_DESTROYED: "Oynadığınız için teşekkürler!",
+            ROOM_DISCONNECTED: "BAĞLANTI KESİLDİ",
+            TEXT_NAUGHTY: "Üzgünüz ama bunu yazamazsınız. Diğer oyunculara karşı saygılı olun.",
+            TEXT_NOTHING: "You can\u2019t enter nothing!",
+            TITLE: "HATA"
         },
-        B7 = "LOADING",
+        B7 = "YÜKLENİYOR",
         F7 = {
-            JOINED_COUNT: "{count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "1 player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "{count} / {maxPlayers} oyuncular katıldı",
+            PLAYERS_NEEDED: "Başlamak için {count} kişi daha gerekiyor | Başlamak için {count} kişi daha gerekiyor",
+            WAITING_FOR_VIP: "Oyunun başlaması için {name} bekleniyor",
+            WAITING_FOR_GAMEPAD: "Oyunun başlaması bekleniyor",
+            GAME_STARTING: "Oyun Başlıyor",
+            BUTTON_START: "Başlatmak için basın",
+            BUTTON_CANCEL: "Başlatmayı iptal et"
         },
         j7 = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Galeriyi Ziyaret Edin",
+            PLAY_AGAIN: "Yeniden Oyna?",
+            BUTTON_SAME_PLAYERS: "Aynı Oyuncular",
+            BUTTON_NEW_PLAYERS: "Yeni Oyuncular"
         },
         q7 = {
-            AND: "AND",
-            OR: "OR"
+            AND: "VE",
+            OR: "YA DA"
         },
         G7 = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let’s Go!"
+            BUTTON_SKIP: "Atla",
+            BUTTON_NEXT: "Sıradaki",
+            BUTTON_DONE: "Hadi!"
         },
         W7 = {
-            NAME: "AUDIENCE"
+            NAME: "SEYİRCİ"
         },
         H7 = {
-            EPISODE_REPORT: "Report Episode",
-            EPISODE_UNLOAD: "Unload Episode",
-            EPISODE_VIEW_AUTHOR: "View Author",
-            EPISODES_LOAD: "Load an episode by id:",
-            EPISODES_MENU: "Episodes Menu",
-            EPISODES_SELECT: "Or select an epsiode:",
-            EPISODES_WARNING: "Warning: user generated content is not rated",
+            EPISODE_REPORT: "Bölümü Bildir",
+            EPISODE_UNLOAD: "Bölümü Çıkar",
+            EPISODE_VIEW_AUTHOR: "Yazarı Görüntüle",
+            EPISODES_LOAD: "Bir bölümü kimliğiyle yükleyin:",
+            EPISODES_MENU: "Bölüm menüsü",
+            EPISODES_SELECT: "Ya da bir bölüm seçin:",
+            EPISODES_WARNING: "Uyarı: kullanıcıdan oluşturulmuş içerikler derecelendirilmedi",
             INSTRUCTION: {
-                CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                LOAD: "create or load?",
-                PUBLISH: "publish your episode",
-                TITLE: "name your episode",
-                TOGGLE_VISIBILITY: "tap to show/hide prompts",
-                WRITE: "write your prompts"
+                CREATE_TITLE: "ilk olarak, bütün istemleri içerecek bölüme bir isim verin ve oluştur düğmesine basın.",
+                LOAD: "oluştur ya da yükle?",
+                PUBLISH: "bölümünüzü yayınlayın",
+                TITLE: "bölümünüze isim verin",
+                TOGGLE_VISIBILITY: "istemleri göstermek/gizlemek için dokunun",
+                WRITE: "istemlerinizi yazın"
             },
             WARNING: {
-                DELETE: "Are you sure you want to delete this episode?",
-                TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
-                TOS_AGREE: "agree and share"
+                DELETE: "Bu bölümü silmek istediğinizden emin misiniz?",
+                TOS: "İçerik paylaşarak, [tos]Hizmet Şartlarını[/tos] kabul edersiniz.",
+                TOS_AGREE: "kabul et ve paylaş"
             },
-            BACK_TO_EPISODES: "back to episodes",
-            BACK_TO_MENU: "back to menu",
-            CREATE_NEW_EPISODE: "create a new episode",
-            PREVIOUS_EPISODES: "previous episodes",
-            PROMPT_ADD: "add prompt",
-            PROMPT_PLACEHOLDER: "enter a prompt",
-            PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-            TITLE_PLACEHOLDER: "enter a title"
+            BACK_TO_EPISODES: "bölümlere dön",
+            BACK_TO_MENU: "menüye dön",
+            CREATE_NEW_EPISODE: "yeni bölüm oluştur",
+            PREVIOUS_EPISODES: "geçmiş bölümler",
+            PROMPT_ADD: "istem ekle",
+            PROMPT_PLACEHOLDER: "bir istem girin",
+            PROMPTS_COUNT_HIDDEN: "({count} gizli)",
+            TITLE_PLACEHOLDER: "bir başlık girin"
         },
         V7 = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Hesabınızı başarıyla Jackbox Audience Kit Twitch Eklentisine bağladınız.",
+                WARNING: "BU ODANIN SEYİRCİ AYARI AÇIK DEĞİL"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "YENİDEN BAĞLANILDI",
+                SUBTEXT: "İyi Eğlenceler!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "BAĞLANTI SARSILDI",
+                    SUBTEXT: "Yeniden Bağlanılıyor... (Deneme {attempt} / 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "OYUN BAĞLANTISI SARSILDI",
+                    SUBTEXT: "Oyun ekranını yeniden bağlarken lütfen bekleyin..."
                 }
             },
             PAUSED: {
-                TEXT: "THE GAME IS PAUSED",
-                SUBTEXT: "Anything you submit will still be sent to the game."
+                TEXT: "OYUN DURDURULDU",
+                SUBTEXT: "Gönderdiğin her şey hâlâ oyuna gönderilecek."
             }
         },
         K7 = {
-            SHARE: "Share",
-            COPY_TO_CLIPBOARD: "Copy to clipboard"
+            SHARE: "Paylaş",
+            COPY_TO_CLIPBOARD: "Panoya Kopyala"
         },
         z7 = {
             ACTION: D7,
@@ -28851,32 +28851,32 @@ ${e}`
             }
         },
         jue = {
-            BUTTON_START: "Start game!",
-            SHUFFLE_FACE: "tap to make a face"
+            BUTTON_START: "Oyunu başlat!",
+            SHUFFLE_FACE: "bir yüz yapmak için basın"
         },
         que = {
-            CLEAR: "Clear",
-            SUBMIT: "Done"
+            CLEAR: "Temizle",
+            SUBMIT: "Bitti"
         },
         Gue = {
-            GO: "GO!",
-            TAP_ME: "Tap Me",
-            OUT_OF_CHARS: "Out of characters",
-            SO_PROLIFIC: "SO PROLIFIC!",
-            RUN_OUT_CHARS: "You've run out of characters.",
-            PLACE_CURSOR: "Place your cursor",
+            GO: "BAŞLA!",
+            TAP_ME: "Bana bas",
+            OUT_OF_CHARS: "Karakter bitti",
+            SO_PROLIFIC: "ÇOK ÜRETKENSİN!",
+            RUN_OUT_CHARS: "Karakterlerin kalmadı.",
+            PLACE_CURSOR: "İmlecini yerleştir",
             GAME_BEGINS_IN: "Game begins in..."
         },
-        Wue = "Waiting",
+        Wue = "Bekleniyor",
         Hue = {
-            TIPS: "Tips",
-            WATING_WRITING: "Hang on! The OTHER team is writing",
-            CURSOR_1: "You can MOVE YOUR CURSOR to any part of the message after writing starts! Any time, any place.",
-            CURSOR_2: "Try moving YOUR CURSOR while typing - interrupt your friends and change it up!",
-            CO_AUTHOR_1: "Change someone else’s word? You get a CO-AUTHOR BONUS.",
-            CO_AUTHOR_2: "Someone get in the middle of your word? No problemo! You still get a CO-AUTHOR BONUS.",
-            SUGGESTION_1: "Try the “TAP ME” button under the text field for some chaotic writing inspiration",
-            SUGGESTION_2: "Wanna make it weird? The “TAP ME” button under the text field has some…suggestions for you ;)"
+            TIPS: "İpucu",
+            WATING_WRITING: "Bekle! DİĞER takım yazıyor",
+            CURSOR_1: "Yazım başladıktan sonra mesajın herhangi bir yerine İMLECİNİ YERLEŞTİREBİLİRSİN. İstediğin zaman, istediğin yere.",
+            CURSOR_2: "Yazarken İMLECİNİN yerini değiştirmeyi dene - arkadaşlarının sözünü kesebilir ve sözleri değiştirebilirsin!",
+            CO_AUTHOR_1: "Başka birinin sözcüğünü mü değiştirdin? Bir ORTAK YAZAR BONUSU alırsın.",
+            CO_AUTHOR_2: "Birisi senin sözcüğünü mü değiştirdi? Sorun değil! Yine de ORTAK YAZAR BONUSU alacaksın.",
+            SUGGESTION_1: "Bazı çılgın yazım ilhamları için yazım yerinin altında bulunan “BANA BAS” düğmesini dene",
+            SUGGESTION_2: "Garipleştirmek ister misin? Yazım yerinin altında olan “BANA BAS” düğmesinin sana bazı…önerileri var ;)"
         },
         Vue = {
             ALT: Fue,
