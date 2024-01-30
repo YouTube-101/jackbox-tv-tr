@@ -27792,13 +27792,13 @@ ${e}`
             SELECT_SONG: "select song {songName}"
         },
         Uge = {
-            BASS: "Bass",
-            MELODY: "Melody",
-            COUNTER: "Counter",
-            DRUMS: "Drums",
-            PERCUSSION: "Percussion",
-            HARMONY: "Harmony",
-            SIGNATURE: "Signature"
+            BASS: "Bas",
+            MELODY: "Melodi",
+            COUNTER: "Karşı Melodi",
+            DRUMS: "Bateri",
+            PERCUSSION: "Perküsypon",
+            HARMONY: "Harmoni",
+            SIGNATURE: "Nota İmi"
         },
         Bge = {
             GET_READY: "Hazır Ol",
@@ -27873,8 +27873,8 @@ ${e}`
         },
         zge = {
             AUDIENCE: "Seyirci",
-            SURVIVED: "Sağ Kalındı",
-            EATEN: "Yenilgi"
+            SURVIVED: "SAĞ KALINDI",
+            EATEN: "YENİLGİ"
         },
         Kge = {
             AUDIO_CHECK: "Ses Kontrolü",

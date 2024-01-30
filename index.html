@@ -4,16 +4,19 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport"
+        content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>Jackbox.TV</title>
-    <meta name="description" content="Jackbox.tv is your controller for all of the Jackbox Party Packs and standalone games. Make some weird memories.">
+    <meta name="description"
+        content="Jackbox.tv is your controller for all of the Jackbox Party Packs and standalone games. Make some weird memories.">
     <meta name="application-name" content="Jackbox.TV">
 
     <meta name="og:url" content="https://jackbox.tv/">
     <meta name="og:title" content="Jackbox.TV">
     <meta name="og:type" content="website">
-    <meta name="og:description" content="Jackbox.tv is your controller for all of the Jackbox Party Packs and standalone games. Make some weird memories.">
+    <meta name="og:description"
+        content="Jackbox.tv is your controller for all of the Jackbox Party Packs and standalone games. Make some weird memories.">
     <meta name="og:image" content="./src/images/favicon-196x196.png">
 
     <meta name="mobile-web-app-capable" content="yes">
@@ -84,6 +87,25 @@
 
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-V1QJVQMYF1"></script>
 
+    <script>
+        let a = window.location.pathname.substr(1);
+        a = a.replaceAll("i", "İ");
+        a = a.replaceAll("ı", "I");
+        a = a.toUpperCase();
+        a = a.replaceAll("İ", "I");
+        let valids = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+        let ia = a.split("");
+        let oa = "";
+        for (let i = 0; i < ia.length; i++) {
+            if (valids.includes(ia[i])) {
+                oa += ia[i];
+            }
+        }
+        r = oa;
+        if (r.length == 4) {
+            localStorage.setItem("tv:code", r);
+        }
+    </script>
     <script>
         window.dataLayer = window.dataLayer || []
 
