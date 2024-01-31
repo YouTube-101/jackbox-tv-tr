@@ -8929,7 +8929,7 @@ var hoe = BP((eae, aR) => {
         }
     }
     _e(ml, "isSetup", !1);
-    const Sx = [{
+    const vk = [{
         name: "Prototype",
         tag: "prototype",
         wrapper: "vue",

@@ -20899,7 +20899,7 @@ var moe = ZM((rle, y1) => {
             PLAYERS_NEEDED: "Başlamak için {count} kişi daha gerekiyor | Başlamak için {count} kişi daha gerekiyor",
             WAITING_FOR_VIP: "Oyunun başlaması için {name} bekleniyor",
             WAITING_FOR_GAMEPAD: "Oyunun başlaması bekleniyor",
-            WAITING_FOR_NEW_GAME: "Yeni bir oyunun başlanması bekleniyor",
+            WAITING_FOR_NEW_GAME: "Yeni bir oyunun başlaması bekleniyor",
             GAME_STARTING: "Oyun Başlıyor",
             BUTTON_START: "Başlatmak için basın",
             BUTTON_CANCEL: "Başlatmayı iptal et"
@@ -20908,7 +20908,7 @@ var moe = ZM((rle, y1) => {
             GALLERY_LINK: "Galeriyi Ziyaret Edin",
             NEW_GAME_STARTED: "Yeni bir oyun başladı",
             PLAY_AGAIN: "Yeniden Oyna?",
-            THANKS_FOR_PLAYING: "Oynadığın için teşekkürler!",
+            THANKS_FOR_PLAYING: "Oynadığınız için teşekkürler!",
             BUTTON_GO_TO_GAME: "Oyuna dön",
             BUTTON_GO_TO_JACKBOX: "Jackbox.tv.tr'ye dön",
             BUTTON_SAME_PLAYERS: "Aynı Oyuncular",
