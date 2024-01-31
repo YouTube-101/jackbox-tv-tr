@@ -3,9 +3,9 @@
     "display": "standalone",
     "icons": [
         {
-            "src": "./favicon-192.png",
+            "src": "./favicon-32.png",
             "type": "image/png",
-            "sizes": "192x192"
+            "sizes": "32x32"
         }
     ]
 }
