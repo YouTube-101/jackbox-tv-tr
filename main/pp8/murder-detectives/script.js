@@ -10842,42 +10842,42 @@ ${n.message}`,
             }
         },
         oW = {
-            DISCONNECTED: "You have been disconnected.",
-            DRAWING_NOTHING: "You have to draw something!",
-            PLAYER_KICKED: "You have been kicked from the game by a moderator.",
-            ROOM_DESTROYED: "Thanks for playing!",
-            ROOM_DISCONNECTED: "Disconnected",
-            TEXT_NAUGHTY: "I\u2019m afraid you can\u2019t write that. Please be respectful of other players.",
-            TEXT_NOTHING: "You can\u2019t enter nothing!",
-            TITLE: "Error"
+            DISCONNECTED: "Bağlantınız Kesildi.",
+            DRAWING_NOTHING: "Bir şey çizmeniz gerek!",
+            PLAYER_KICKED: "Bu oyundan bir moderatör sizi attı.",
+            ROOM_DESTROYED: "Oynadığınız için teşekkürler!",
+            ROOM_DISCONNECTED: "BAĞLANTI KESİLDİ",
+            TEXT_NAUGHTY: "Üzgünüz ama bunu yazamazsınız. Diğer oyunculara karşı saygılı olun.",
+            TEXT_NOTHING: "Bir şey yazman lazım!",
+            TITLE: "HATA"
         },
         lW = "LOADING",
         cW = {
-            JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
-            PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
-            WAITING_FOR_VIP: "Waiting for {name} to start the game",
-            WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-            GAME_STARTING: "Game is starting",
-            BUTTON_START: "Press to Start",
-            BUTTON_CANCEL: "Press to Cancel"
+            JOINED_COUNT: "{count} / {maxPlayers} oyuncular katıldı",
+            PLAYERS_NEEDED: "Başlamak için {count} kişi daha gerekiyor | Başlamak için {count} kişi daha gerekiyor",
+            WAITING_FOR_VIP: "Oyunun başlaması için {name} bekleniyor",
+            WAITING_FOR_GAMEPAD: "Oyunun başlaması bekleniyor",
+            GAME_STARTING: "Oyun Başlıyor",
+            BUTTON_START: "Başlatmak için basın",
+            BUTTON_CANCEL: "Başlatmayı iptal et"
         },
         uW = {
-            GALLERY_LINK: "Visit the Gallery",
-            PLAY_AGAIN: "Play again?",
-            BUTTON_SAME_PLAYERS: "Same Players",
-            BUTTON_NEW_PLAYERS: "New Players"
+            GALLERY_LINK: "Galeriyi Ziyaret Edin",
+            PLAY_AGAIN: "Yeniden Oyna?",
+            BUTTON_SAME_PLAYERS: "Aynı Oyuncular",
+            BUTTON_NEW_PLAYERS: "Yeni Oyuncular"
         },
         fW = {
-            AND: "AND",
-            OR: "OR"
+            AND: "VE",
+            OR: "YA DA"
         },
         dW = {
-            BUTTON_SKIP: "Skip",
-            BUTTON_NEXT: "Next",
-            BUTTON_DONE: "Let\u2019s Go!"
+            BUTTON_SKIP: "Atla",
+            BUTTON_NEXT: "Sıradaki",
+            BUTTON_DONE: "Hadi!"
         },
         hW = {
-            NAME: "AUDIENCE"
+            NAME: "SEYİRCİ"
         },
         pW = {
             EPISODE_REPORT: "Report Episode",
@@ -10911,23 +10911,23 @@ ${n.message}`,
         },
         gW = {
             BROADCASTER: {
-                SUBTEXT: "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
-                WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED"
+                SUBTEXT: "Hesabınızı başarıyla Jackbox Audience Kit Twitch Eklentisine bağladınız.",
+                WARNING: "BU ODANIN SEYİRCİ AYARI AÇIK DEĞİL"
             },
             RECONNECTED: {
-                TEXT: "RECONNECTED",
-                SUBTEXT: "Have fun!"
+                TEXT: "YENİDEN BAĞLANILDI",
+                SUBTEXT: "İyi Eğlenceler!"
             },
             RECONNECTING: {
                 CONTROLLER: {
-                    TEXT: "CONNECTION INTERRUPTED",
-                    SUBTEXT: "Attempting to reconnect ({attempt} of 5)"
+                    TEXT: "BAĞLANTI SARSILDI",
+                    SUBTEXT: "Yeniden Bağlanılıyor... (Deneme {attempt} / 5)"
                 },
                 GAME: {
-                    TEXT: "GAME CONNECTION INTERRUPTED",
-                    SUBTEXT: "Please wait while we attempt to reconnect"
+                    TEXT: "OYUN BAĞLANTISI SARSILDI",
+                    SUBTEXT: "Oyun ekranını yeniden bağlarken lütfen bekleyin..."
                 }
-            }
+            }   
         },
         mW = {
             ACTION: sW,
