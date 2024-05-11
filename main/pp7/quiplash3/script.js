@@ -12536,7 +12536,8 @@ const xC = [169, 174, 8252, 8265, 8482, 8505, 8596, 8597, 8598, 8599, 8600, 8601
         }
     },
     gc = (t, e) => {
-        if (!/[^\u00A1\u0020-\u0022\u0024-\u0029\u002B-\u002F\u003A-\u007E\u00BF-\u00FF’]/gi.test(t)) return e && t && t.length > e && (t = t.substring(0, e)), {
+        t = UpperCaseTR(InputSanitizerTR(t));
+        if (true) return e && t && t.length > e && (t = t.substring(0, e)), {
             result: t,
             charCount: t.length
         };
@@ -12545,7 +12546,7 @@ const xC = [169, 174, 8252, 8265, 8482, 8505, 8596, 8597, 8598, 8599, 8600, 8601
             f = "";
         for (let m = 0; m < i.length && (e ? a < e : !0); m += 1) {
             const _ = i[m];
-            if (/[\u00A1\u0020-\u0022\u0024-\u0029\u002B-\u002F\u003A-\u007E\u00BF-\u00FF’]/gi.test(_)) f += _, a += 1;
+            if (true) f += _, a += 1;
             else if (IC(_)) {
                 if (f += _, Vn(_, _C)) {
                     m += 1;
@@ -21727,4 +21728,21 @@ const Tx = Ic.extend({
 ux({
     MainView: Tx
 });
+function InputSanitizerTR(a) {
+    let valids = "‚ !\"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyzşŞıİğĞ{|}~¡«»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØŒÙÚÛÜÝŸÞßàáâãäåæçèéêëìíîïðñòóôõö÷øœùúûüýþÿ‘’“”„[]".split("");
+    let ia = a.split("");
+    let oa = "";
+    for (let i = 0; i < ia.length; i++) {
+        if (valids.includes(ia[i])) {
+            oa += ia[i];
+        }
+    }
+    return oa;
+}
+function UpperCaseTR(a) {
+    a = a.replaceAll("i", "İ");
+    a = a.replaceAll("ı", "I");
+    a = a.toUpperCase();
+    return a;
+}
 //# sourceMappingURL=3778fb2c.js.map

@@ -13163,7 +13163,7 @@ const vC = `<form>\r
         <div class="inputGroup">\r
             <textarea id="input-text-textarea" rows="1" class="form-control jbg-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>\r
             <span class="inlineSubmit">\r
-                <button type="submit" class="btn btn-default inlineSubmitButton" type="button"><span class="inlineSubmitText">Send</span></button>\r
+                <button type="submit" class="btn btn-default inlineSubmitButton" type="button"><span class="inlineSubmitText">GÖNDER</span></button>\r
             </span>\r
             <span id="helpBlock2" class="help-block errorText"></span>\r
             <div class="charCountDisplay"><span class="charRemaining">70</span></div>\r
@@ -16285,7 +16285,7 @@ const LC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
         <div id="buttons" class="buttons"></div>\r
         <div id="post-sketchpad" class="post-sketchpad">\r
             <div id="submit">\r
-                <button id='submitdrawing' class="button submitDrawing">Submit</button><br/>\r
+                <button id='submitdrawing' class="button submitDrawing">GÖNDER</button><br/>\r
             </div>\r
             <button id='censorOptions' class='button'>Censor Options</button>\r
             <div class="footer"></div>\r
@@ -16322,7 +16322,7 @@ const LC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             debug: !1,
             strings: {
                 drawing_empty: "You must draw something!",
-                submit: "submit",
+                submit: "GÖNDER",
                 ERROR_REJECTED_OBJECT: "That's not allowed, enter something else!"
             }
         }
@@ -16542,11 +16542,11 @@ const LC = `<canvas id="fullLayer" class="sketchpad fullLayer" width='480' heigh
             autocapitalize: !1,
             className: "",
             inlineSubmit: !1,
-            inlineSubmitText: "Submit",
+            inlineSubmitText: "GÖNDER",
             error: "",
             strings: {
-                ERROR_NOTHING_ENTERED: "You need to enter something!",
-                ERROR_REJECTED_TEXT: "That's not allowed, enter something else! (You can change the level of filtering in the game's settings menu)"
+                ERROR_NOTHING_ENTERED: "BİR ŞEY YAZMAN GEREK!",
+                ERROR_REJECTED_TEXT: "BUNA İZİN YOK, BAŞKA BİR ŞEY YAZ! (AYIPLIK FİLTRESİNİN SEVİYESİNİ AYARLARDA DEĞİŞTİREBİLİRSİN)"
             }
         }
     }),
@@ -17477,7 +17477,7 @@ const zC = `<div id="controller" class="state-controller controller-content">
             announcePrompt: !1,
             countGroupName: null,
             strings: {
-                your_choice: "Thank you. Your choice: ",
+                your_choice: "Teşekkürler. Seçimin: ",
                 censor_prompt: "Censor this?",
                 censor_confirm: "Yes, Censor!",
                 censor_cancel: "No!"
