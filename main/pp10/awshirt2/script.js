@@ -37275,7 +37275,7 @@ ${e}`
                 async onInputCry() {
                     this.error = "";
                     try {
-                        await this.$ecast.updateText(UpperCaseTR(this.player.textKey), this.cry)
+                        await this.$ecast.updateText(this.player.textKey, UpperCaseTR(this.cry))
                     } catch (t) {
                         if (t instanceof Dn.EcastFilterError) {
                             this.error = this.$t("ERROR.TEXT_NAUGHTY");
@@ -37358,7 +37358,7 @@ ${e}`
         ]), j("div", $he, [De(o, {
             id: "cry",
             modelValue: t.cry,
-            "onUpdate:modelValue": [e[0] || (e[0] = g => t.cry = g), t.onInputCry],
+            "onUpdate:modelValue": [UpperCaseTR(e[0]) || (e[0] = g => t.cry = UpperCaseTR(g)), t.onInputCry],
             autocomplete: "off",
             autosize: "",
             disabled: t.hasSubmit,
