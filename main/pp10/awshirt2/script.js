@@ -37358,7 +37358,7 @@ ${e}`
         ]), j("div", $he, [De(o, {
             id: "cry",
             modelValue: t.cry,
-            "onUpdate:modelValue": [UpperCaseTR(e[0]) || (e[0] = g => t.cry = UpperCaseTR(g)), t.onInputCry],
+            "onUpdate:modelValue": [e[0] || (e[0] = g => t.cry = UpperCaseTR(g)), t.onInputCry],
             autocomplete: "off",
             autosize: "",
             disabled: t.hasSubmit,
