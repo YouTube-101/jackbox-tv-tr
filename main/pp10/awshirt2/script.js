@@ -34682,22 +34682,22 @@ ${e}`
             }
         },
         Oue = {
-            INSTRUCTION: "Tap to make it happen"
+            INSTRUCTION: "OLAYIN OLMASI İÇİN BASIN"
         },
         Iue = {
             ADD_TO_CART: {
-                ACTION: "Add to cart",
+                ACTION: "SEPETE EKLE",
                 APPAREL_TYPE: "Apparel Type:",
-                COLOR: "Color:",
-                QUANTITY: "Quantity:",
-                SIZE: "Size:",
-                SIZING_CHART: "Sizing Chart",
-                TITLE: "Add item to cart?"
+                COLOR: "RENK:",
+                QUANTITY: "ADET:",
+                SIZE: "BOYUT:",
+                SIZING_CHART: "BOYUT TABLOSU",
+                TITLE: "SEPETE EKLE?"
             },
             DESCRIBE: {
-                GUIDANCE: "(Keep it short and literal!)",
-                INSTRUCTION: "Add A Description",
-                PLACEHOLDER: "describe your drawing"
+                GUIDANCE: "(KISA VE AÇIKLAYICI OLSUN!)",
+                INSTRUCTION: "BİR AÇIKLAMA EKLE",
+                PLACEHOLDER: "ÇİZİMİNİ AÇIKLA"
             }
         },
         Aue = {
@@ -37275,7 +37275,7 @@ ${e}`
                 async onInputCry() {
                     this.error = "";
                     try {
-                        await this.$ecast.updateText(this.player.textKey, this.cry)
+                        await this.$ecast.updateText(UpperCaseTR(this.player.textKey), this.cry)
                     } catch (t) {
                         if (t instanceof Dn.EcastFilterError) {
                             this.error = this.$t("ERROR.TEXT_NAUGHTY");
